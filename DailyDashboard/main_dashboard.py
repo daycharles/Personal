@@ -67,7 +67,7 @@ def save_tasks(task_list):
 
 
 def load_notes():
-    """Load notes from notes.txt (plain text). Return string."""
+    """Load notes from notes.txt (plain text). Return a string."""
     if not os.path.exists(NOTES_FILE):
         return ""
     try:
