@@ -552,7 +552,7 @@ class DashboardWindow(QMainWindow):
         """
         event.ignore()
         self.hide()
-        self.overlay.show()
+        self.overlay.hide()
         self._is_hidden_to_tray = True
         self.tray.showMessage(
             "Dashboard Minimized",
