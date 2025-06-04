@@ -1,0 +1,1843 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PSIMS.ThirdParty.Data.Ibr.TnTibrs</name>
+    </assembly>
+    <members>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsAdministrativeSegment">
+            <summary>
+            Represents a TIBRS Administrative Segment
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsAdministrativeSegment.Latitude">
+            <summary>
+            Gets/Sets latitude
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsAdministrativeSegment.Longitude">
+            <summary>
+            Gets/Sets longitude
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsAdministrativeSegment.IncidentAddress">
+            <summary>
+            Gets/Sets incident address
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsAdministrativeSegment.OfficerInvolvedShooting">
+            <summary>
+            Gets/Sets whether or not it was an Officer Involved Shooting
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsAdministrativeSegment.InvestigatedByOutsideAgency">
+            <summary>
+            Gets/Sets whether or not it was Investigated By Outside Agency
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsArrestSegment">
+            <summary>
+            Represents a TIBRS Arrest Segment (both Group A or Group B)
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsArrestSegment.StateControlNumber">
+            <summary>
+            Gets/Sets state control number
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsArrestSegment.ArresteeName">
+            <summary>
+            Gets/Sets arrestee name
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsArrestSegment.ArresteeDateOfBirth">
+            <summary>
+            Gets/Sets arrestee date of birth
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsArrestSegment.PreviousDomesticViolence">
+            <summary>
+            Gets/Sets arrestee previous domestic violence
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsArrestSegmentGroupA">
+            <summary>
+            Represents a TIBRS Group A Arrest Segment
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsArrestSegmentGroupA.WarrantSignedBy">
+            <summary>
+            Gets/Sets warrant (signed by)
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsArrestSegmentGroupB">
+            <summary>
+            Represents a TIBRS Group B Arrest Segment 
+            </summary>  
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsArrestSegmentGroupB.Latitude">
+            <summary>
+            Gets/Sets latitude
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsArrestSegmentGroupB.Longitude">
+            <summary>
+            Gets/Sets longitude
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsArrestSegmentGroupB.ArrestAddress">
+            <summary>
+            Gets/Sets arrest address
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsData">
+            <summary>
+            Represents the data for an entire TIBRS incident
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsData.GroupBArrestNumberNotUnique">
+            <summary>
+            Gets/Sets whether or not the Group B Arrest Number is not unique
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenderSegment">
+            <summary>
+            Represents a TIBRS Offender Segment
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenderSegment.ArresteeNumber">
+            <summary>
+            Gets/Sets arrestee number
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenderSegment.Ethnicity">
+            <summary>
+            Gets/Sets ethnicity
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment">
+            <summary>
+            Represents a TIBRS Offense Segment
+            </summary>  
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment.HomeInvasion">
+            <summary>
+            Gets/Sets home invasion
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment.GangActivity">
+            <summary>
+            Gets/Sets gang activity
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment.GangType">
+            <summary>
+            Gets/Sets type of gang
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment.GangName">
+            <summary>
+            Gets/Sets gang name
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment.DrugRelated">
+            <summary>
+            Gets/Sets drug related
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment.DrugType">
+            <summary>
+            Gets/Sets drug type
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment.DrugOrigin">
+            <summary>
+            Gets/Sets origin of drug
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment.DrugPrecursor">
+            <summary>
+            Gets/Sets (drug) precursors
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment.IdentityTheft">
+            <summary>
+            Gets/Sets identity theft
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsPropertySegment">
+            <summary>
+            Represents a TIBRS Property Segment
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsPropertySegment.LocationMarijuanaPlots">
+            <summary>
+            Gets/Sets location marijuana fields (plots)
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsPropertySegment.NumberMarijuanaPlots">
+            <summary>
+            Gets/Sets number of (marijuana) plots
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsPropertySegment.LongitudeMarijuanaPlots">
+            <summary>
+            Gets/Sets longitude (marijuana plots)
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsPropertySegment.LatitudeMarijuanaPlots">
+            <summary>
+            Gets/Sets latitude (marijuana plots)
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment">
+            <summary>
+            Represents a TIBRS Victim Segment
+            </summary>  
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment.VictimTransportedToSafety">
+            <summary>
+            Gets/Sets transportation (victim transported to safety)
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment.ViolationOrderOfProtection">
+            <summary>
+            Gets/Sets violation of order of protection
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment.SchoolCode">
+            <summary>
+            Gets/Sets school code
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment.CrimeOccurredOnCampus">
+            <summary>
+            Gets/Sets (crime occurred on) campus
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment.SchoolVictimClassification">
+            <summary>
+            Gets/Sets (school victim) classification
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment.LeokaAssignmentType">
+            <summary>
+            Gets/Sets (LEOKA) assignment type (officer)
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment.LeokaTypeActivity">
+            <summary>
+            Gets/Sets (LEOKA) type of activity (officer)/circumstance
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment.LeokaOriOtherJurisdiction">
+            <summary>
+            Gets/Sets (LEOKA) ORI - other jurisdiction (officer)
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment.DomesticViolence">
+            <summary>
+            Gets/Sets Domestic Violence
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment.PreviousDomesticViolence">
+            <summary>
+            Gets/Sets Previous Domestic Violence
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsAdministrativeSegment">
+            <summary>
+            TIBRS Administrative Segment data
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsAdministrativeSegment.Latitude">
+            <summary>
+            Gets/Sets latitude
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsAdministrativeSegment.Longitude">
+            <summary>
+            Gets/Sets longitude
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsAdministrativeSegment.IncidentAddress">
+            <summary>
+            Gets/Sets incident address
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsAdministrativeSegment.OfficerInvolvedShooting">
+            <summary>
+            Gets/Sets whether or not it was an Officer Involved Shooting
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsAdministrativeSegment.InvestigatedByOutsideAgency">
+            <summary>
+            Gets/Sets whether or not it was Investigated By Outside Agency
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsArrestSegment">
+            <summary>
+            Base class for TIBRS Arrest Segments (both Group A and Group B)
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsArrestSegment.#ctor(System.String)">
+            <summary>
+            Allows inherited classes to initialize a new instance
+            </summary>
+            <param name="segmentType">The segment type (number)</param>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsArrestSegment.StateControlNumber">
+            <summary>
+            Gets/Sets state control number
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsArrestSegment.ArresteeName">
+            <summary>
+            Gets/Sets arrestee name
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsArrestSegment.ArresteeDateOfBirth">
+            <summary>
+            Gets/Sets arrestee date of birth
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsArrestSegment.PreviousDomesticViolence">
+            <summary>
+            Gets/Sets arrestee previous domestic violence
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsArrestSegmentGroupA">
+            <summary>
+            TIBRS Group A Arrest Segment
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsArrestSegmentGroupA.#ctor">
+            <summary>
+            Allows inherited classes to initialize a new instance
+            </summary>    
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsArrestSegmentGroupA.WarrantSignedBy">
+            <summary>
+            Gets/Sets warrant (signed by)
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsArrestSegmentGroupB">
+            <summary>
+            TIBRS Group B Arrest Segment
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsArrestSegmentGroupB.#ctor">
+            <summary>
+            Allows inherited classes to initialize a new instance
+            </summary>    
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsArrestSegmentGroupB.Latitude">
+            <summary>
+            Gets/Sets latitude
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsArrestSegmentGroupB.Longitude">
+            <summary>
+            Gets/Sets longitude
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsArrestSegmentGroupB.ArrestAddress">
+            <summary>
+            Gets/Sets arrest address
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsData">
+            <summary>
+            TIBRS incident data
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsData.AddOffense(PSIMS.ThirdParty.Data.Ibr.Objects.IOffenseSegment)">
+            <summary>
+            Adds an offense segment
+            </summary>
+            <param name="offense">The offense segment to add</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsData.AddProperty(PSIMS.ThirdParty.Data.Ibr.Objects.IPropertySegment)">
+            <summary>
+            Adds a property segment
+            </summary>
+            <param name="property">The property segment to add</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsData.AddVictim(PSIMS.ThirdParty.Data.Ibr.Objects.IVictimSegment)">
+            <summary>
+            Adds a victim segment
+            </summary>
+            <param name="victim">The victim segment to add</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsData.AddOffender(PSIMS.ThirdParty.Data.Ibr.Objects.IOffenderSegment)">
+            <summary>
+            Adds an offender segment
+            </summary>
+            <param name="offender">The offender segment to add</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsData.AddArrest(PSIMS.ThirdParty.Data.Ibr.Objects.IArrestSegment)">
+            <summary>
+            Adds a Group A arrest segment
+            </summary>
+            <param name="arrest">The Group A arrest segment to add</param>    
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsData.AddArrestGroupB(PSIMS.ThirdParty.Data.Ibr.Nibrs.Objects.INibrsArrestSegmentGroupB)">
+            <summary>
+            Adds a Group B arrest segment
+            </summary>
+            <param name="arrest">The Group B arrest segment to add</param>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsData.AdministrativeSegment">
+            <summary>
+            Gets/Sets administrative segment
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsData.TibrsAdministrativeSegment">
+            <summary>
+             Gets/Sets TibrsAdministrativeSegment
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsData.GroupBArrestNumberNotUnique">
+            <summary>
+            Gets/Sets whether or not the Group B Arrest Number is not unique
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsOffenderSegment">
+            <summary>
+            TIBRS Offender Segment
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsOffenderSegment.ArresteeNumber">
+            <summary>
+            Gets/Sets arrestee number
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsOffenderSegment.Ethnicity">
+            <summary>
+            Gets/Sets ethnicity
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsOffenseSegment">
+            <summary>
+            TIBRS Offense Segment
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsOffenseSegment.HomeInvasion">
+            <summary>
+            Gets/Sets home invasion
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsOffenseSegment.GangActivity">
+            <summary>
+            Gets/Sets gang activity
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsOffenseSegment.GangType">
+            <summary>
+            Gets/Sets type of gang
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsOffenseSegment.GangName">
+            <summary>
+            Gets/Sets gang name
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsOffenseSegment.DrugRelated">
+            <summary>
+            Gets/Sets drug related
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsOffenseSegment.DrugType">
+            <summary>
+            Gets/Sets drug type
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsOffenseSegment.DrugOrigin">
+            <summary>
+            Gets/Sets origin of drug
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsOffenseSegment.DrugPrecursor">
+            <summary>
+            Gets/Sets (drug) precursors
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsOffenseSegment.IdentityTheft">
+            <summary>
+            Gets/Sets identity theft
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsPropertySegment">
+            <summary>
+            TIBRS Property Segment
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsPropertySegment.LocationMarijuanaPlots">
+            <summary>
+            Gets/Sets location marijuana fields (plots)
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsPropertySegment.NumberMarijuanaPlots">
+            <summary>
+            Gets/Sets number of (marijuana) plots
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsPropertySegment.LongitudeMarijuanaPlots">
+            <summary>
+            Gets/Sets longitude (marijuana plots)
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsPropertySegment.LatitudeMarijuanaPlots">
+            <summary>
+            Gets/Sets latitude (marijuana plots)
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsVictimSegment">
+            <summary>
+            TIBRS Victim Segment
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsVictimSegment.VictimTransportedToSafety">
+            <summary>
+            Gets/Sets transportation (victim transported to safety)
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsVictimSegment.ViolationOrderOfProtection">
+            <summary>
+            Gets/Sets violation of order of protection
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsVictimSegment.SchoolCode">
+            <summary>
+            Gets/Sets school code
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsVictimSegment.CrimeOccurredOnCampus">
+            <summary>
+            Gets/Sets (crime occurred on) campus
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsVictimSegment.SchoolVictimClassification">
+            <summary>
+            Gets/Sets (school victim) classification
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsVictimSegment.LeokaAssignmentType">
+            <summary>
+            Gets/Sets (LEOKA) assignment type (officer)
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsVictimSegment.LeokaTypeActivity">
+            <summary>
+            Gets/Sets (LEOKA) type of activity (officer)/circumstance
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsVictimSegment.LeokaOriOtherJurisdiction">
+            <summary>
+            Gets/Sets (LEOKA) ORI - other jurisdiction
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsVictimSegment.DomesticViolence">
+            <summary>
+            Gets/Sets Domestic Violence
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsVictimSegment.PreviousDomesticViolence">
+            <summary>
+            Gets/Sets Previous Domestic Violence
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator">
+            <summary>
+            Validates TIBRS Data
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.#ctor(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.TibrsData,System.DateTime,System.DateTime,System.DateTime,System.String,System.String)">
+            <summary>
+            Initializes a new instance of TibrsValidator
+            </summary>
+            <param name="tibrsData">The TIBRS data to validate</param>
+            <param name="startDate">The date the agency started using IBR</param>
+            <param name="inactiveDate">The date the agency went inactive with IBR</param>
+            <param name="activityDate">The activity date of the data to validate</param>
+            <param name="dataElementFile">The path/filename of the file containing the TIBRS data element numbers and names</param>
+            <param name="errorFile">The path/filename of the file containing the TIBRS error numbers and messages</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError057">
+            <summary>
+            Checks for FBI Error 057
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError086">
+            <summary>
+            Checks for FBI Error 086
+            </summary>
+            <remarks>Not applicable in TIBRS</remarks>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError087">
+            <summary>
+            Checks for FBI Error 087
+            </summary>
+            <remarks>Not applicable in TIBRS</remarks>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError121">
+            <summary>
+            Checks for FBI Error 121
+            </summary>
+            <remarks>Not applicable in TIBRS</remarks>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError154">
+            <summary>
+            Checks for FBI Error 154
+            </summary>
+            <remarks>Not applicable in TIBRS</remarks>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError157">
+            <summary>
+            Checks for FBI Error 157
+            </summary>
+            <remarks>Not applicable in TIBRS</remarks>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError158">
+            <summary>
+            Checks for FBI Error 158
+            </summary>
+            <remarks>Not applicable in TIBRS</remarks>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError160">
+            <summary>
+            Checks for FBI Error 160
+            </summary>
+            <remarks>Not applicable in TIBRS</remarks>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError161">
+            <summary>
+            Checks for FBI Error 161
+            </summary>
+            <remarks>Not applicable in TIBRS</remarks>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError162">
+            <summary>
+            Checks for FBI Error 162
+            </summary>
+            <remarks>Not applicable in TIBRS</remarks>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError163">
+            <summary>
+            Checks for FBI Error 163
+            </summary>
+            <remarks>Not applicable in TIBRS</remarks>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError164">
+            <summary>
+            Checks for FBI Error 164
+            </summary>
+            <remarks>Not applicable in TIBRS</remarks>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError165">
+            <summary>
+            Checks for FBI Error 165
+            </summary>
+            <remarks>Not applicable in TIBRS</remarks>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError166">
+            <summary>
+            Checks for FBI Error 166
+            </summary>
+            <remarks>Not applicable in TIBRS</remarks>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError167">
+            <summary>
+            Checks for FBI Error 167
+            </summary>
+            <remarks>Not applicable in TIBRS</remarks>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError169">
+            <summary>
+            Checks for FBI Error 169
+            </summary>
+            <remarks>Not applicable in TIBRS</remarks>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError171">
+            <summary>
+            Checks for FBI Error 171
+            </summary>    
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError174(System.DateTime)">
+            <summary>
+            Checks for FBI Error 174
+            </summary>
+            <remarks>Not applicable in TIBRS</remarks>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError176(System.DateTime)">
+            <summary>
+            Checks for FBI Error 176
+            </summary>
+            <remarks>Not applicable in TIBRS</remarks>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError177">
+            <summary>
+            Checks for FBI Error 177
+            </summary>
+            <remarks>Not applicable in TIBRS</remarks>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError321">
+            <summary>
+            Checks for FBI Error 321
+            </summary>
+            <remarks>Not applicable in TIBRS</remarks>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError369">
+            <summary>
+            Checks for FBI Error 369
+            </summary>
+            <remarks>Not applicable in TIBRS</remarks>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError370">
+            <summary>
+            Checks for FBI Error 370
+            </summary>
+            <remarks>Not applicable in TIBRS</remarks>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError371">
+            <summary>
+            Checks for FBI Error 371
+            </summary>
+            <remarks>Not applicable in TIBRS</remarks>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError377">
+            <summary>
+            Checks for FBI Error 377
+            </summary>
+            <remarks>Not applicable in TIBRS</remarks>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError378(PSIMS.ThirdParty.Data.Ibr.Nibrs.Objects.INibrsPropertySegment)">
+            <summary>
+            Checks for FBI Error 378
+            </summary>
+            <remarks>Not applicable in TIBRS</remarks>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError379">
+            <summary>
+            Checks for FBI Error 379
+            </summary>
+            <remarks>Not applicable in TIBRS</remarks>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError458VictimAge(PSIMS.ThirdParty.Data.Ibr.Nibrs.Objects.INibrsVictimSegment)">
+            <summary>
+            Checks for TBI Error 458 in Victim Age
+            </summary>    
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError458VictimEthnicity(PSIMS.ThirdParty.Data.Ibr.Nibrs.Objects.INibrsVictimSegment)">
+            <summary>
+            Checks for TBI Error 458 in Victim Ethnicity
+            </summary>    
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError458VictimOffenderNumber(PSIMS.ThirdParty.Data.Ibr.Nibrs.Objects.INibrsVictimSegment,System.Int32)">
+            <summary>
+            Checks for TBI Error 458 in Victim Offender Number(s)
+            </summary>    
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError458VictimRace(PSIMS.ThirdParty.Data.Ibr.Nibrs.Objects.INibrsVictimSegment)">
+            <summary>
+            Checks for TBI Error 458 in Victim Race
+            </summary>    
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError458VictimResidentStatus(PSIMS.ThirdParty.Data.Ibr.Nibrs.Objects.INibrsVictimSegment)">
+            <summary>
+            Checks for TBI Error 458 in Victim Resident Status
+            </summary>    
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError458VictimSex(PSIMS.ThirdParty.Data.Ibr.Nibrs.Objects.INibrsVictimSegment)">
+            <summary>
+            Checks for TBI Error 458 in Victim Sex
+            </summary>    
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError404VictimType(PSIMS.ThirdParty.Data.Ibr.Nibrs.Objects.INibrsVictimSegment)">
+            <summary>
+            Checks for FBI Error 404 in Victim Type
+            </summary>    
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError464(PSIMS.ThirdParty.Data.Ibr.Nibrs.Objects.INibrsVictimSegment,System.Int32)">
+            <summary>
+            Checks for TBI Error 464
+            </summary>    
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError621">
+            <summary>
+            Checks for FBI Error 621
+            </summary>
+            <remarks>Not applicable in TIBRS</remarks>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError657">
+            <summary>
+            Checks for FBI Error 657
+            </summary>
+            <remarks>Not applicable in TIBRS</remarks>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError658">
+            <summary>
+            Checks for FBI Error 658
+            </summary>
+            <remarks>Not applicable in TIBRS</remarks>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError659">
+            <summary>
+            Checks for FBI Error 659
+            </summary>
+            <remarks>Not applicable in TIBRS</remarks>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError660">
+            <summary>
+            Checks for FBI Error 660
+            </summary>
+            <remarks>Not applicable in TIBRS</remarks>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError662">
+            <summary>
+            Checks for FBI Error 662
+            </summary>
+            <remarks>Not applicable in TIBRS</remarks>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError663">
+            <summary>
+            Checks for FBI Error 663
+            </summary>
+            <remarks>Not applicable in TIBRS</remarks>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError668">
+            <summary>
+            Checks for FBI Error 668
+            </summary>
+            <remarks>Not applicable in TIBRS</remarks>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError671">
+            <summary>
+            Checks for FBI Error 671
+            </summary>
+            <remarks>Not applicable in TIBRS</remarks>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrors064And661">
+            <summary>
+            Checks for FBI Errors 064 and 661
+            </summary>
+            <remarks>Not applicable in TIBRS</remarks>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrors159And168">
+            <summary>
+            Checks for FBI Errors 159 and 168
+            </summary>
+            <remarks>Not applicable in TIBRS</remarks>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrors380And381">
+            <summary>
+            Checks for FBI Errors 380 and 381
+            </summary>
+            <remarks>Not applicable in TIBRS</remarks>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrors620And720(PSIMS.ThirdParty.Data.Ibr.Nibrs.Objects.INibrsArrestSegment,System.DateTime)">
+            <summary>
+            Checks for FBI Errors 620 and 720
+            </summary>    
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEVictimSegment(PSIMS.ThirdParty.Data.Ibr.Nibrs.Objects.INibrsVictimSegment)">
+            <summary>
+            Checks for errors in the given victim segment
+            </summary>
+            <param name="vict">The victim segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEVictAsltCirc(PSIMS.ThirdParty.Data.Ibr.Nibrs.Objects.INibrsVictimSegment)">
+            <summary>
+            Checks the Victim Assault/Homicide Circumstances data element for errors
+            </summary>
+            <param name="vict">The victim segment containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEVictOfnsLink(PSIMS.ThirdParty.Data.Ibr.Nibrs.Objects.INibrsVictimSegment)">
+            <summary>
+            Checks the Victim Offense Code(s) data element for errors
+            </summary>
+            <param name="vict">The victim segment containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEArstDate(PSIMS.ThirdParty.Data.Ibr.Nibrs.Objects.INibrsArrestSegment)">
+            <summary>
+            Checks the Arrest Date data element for errors
+            </summary>
+            <param name="arst">The arrest segment containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckGlobalArrestSegments">
+            <summary>
+            Checks the arrest segments for errors
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckOffenseCodeEdits">
+            <summary>
+            Checks the offense codes for errors
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckOffense220">
+            <summary>
+            Checks offense 220 for errors
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckOffenses23A23H">
+            <summary>
+            Checks offenses 23A-H for errors
+            </summary>    
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEPropValue(PSIMS.ThirdParty.Data.Ibr.Nibrs.Objects.INibrsPropertySegment)">
+            <summary>
+            Checks the Property Value data element for errors
+            </summary>
+            <param name="prop">The property segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEPropDrugType(PSIMS.ThirdParty.Data.Ibr.Nibrs.Objects.INibrsPropertySegment)">
+            <summary>
+            Checks Property Drug Type data element for errors
+            </summary>
+            <param name="prop">The property segment containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEPropDrugQty(PSIMS.ThirdParty.Data.Ibr.Nibrs.Objects.INibrsPropertySegment)">
+            <summary>
+            Checks Property Drug Quantity data element for errors
+            </summary>
+            <param name="prop">The property segement containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEPropDrugMeas(PSIMS.ThirdParty.Data.Ibr.Nibrs.Objects.INibrsPropertySegment)">
+            <summary>
+            Checks Property Drug Measurement data element for errors
+            </summary>
+            <param name="prop">The property segment containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEPropTypeDesc(PSIMS.ThirdParty.Data.Ibr.Nibrs.Objects.INibrsPropertySegment)">
+            <summary>
+            Checks Property Description data element for errors
+            </summary>
+            <param name="prop">The property segment containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEVictType(PSIMS.ThirdParty.Data.Ibr.Nibrs.Objects.INibrsVictimSegment)">
+            <summary>
+            Checks Victim Type data element for errors
+            </summary>
+            <param name="vict">The victim segement containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEOffenseSegment(PSIMS.ThirdParty.Data.Ibr.Nibrs.Objects.INibrsOffenseSegment)">
+            <summary>
+            Checks the given offense segment for data element errors
+            </summary>
+            <param name="ofns">The offense segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEPropertySegment(PSIMS.ThirdParty.Data.Ibr.Nibrs.Objects.INibrsPropertySegment)">
+            <summary>
+            Checks the give property segment for data element errors
+            </summary>
+            <param name="prop">The property segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEOffenderSegment(PSIMS.ThirdParty.Data.Ibr.Nibrs.Objects.INibrsOffenderSegment)">
+            <summary>
+            Checks the given offender segment for data element errors
+            </summary>
+            <param name="ofndr">The offender segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEOffenderEthnicity(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenderSegment)">
+            <summary>
+            Checks the given arrest segment for data element errors
+            </summary>
+            <param name="arst">The arrst segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_501_7(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenderSegment)">
+            <summary>
+            Checks for TBI Error TN_501.7
+            </summary>
+            <param name="ofndr">The ofndr segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_504_3(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenderSegment)">
+            <summary>
+            Checks for TBI Error TN_504.3
+            </summary>
+            <param name="ofndr">The ofndr segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEArrestSegments(PSIMS.ThirdParty.Data.Ibr.Nibrs.Objects.INibrsArrestSegment)">
+            <summary>
+            Checks the given arrest segment for data element errors
+            </summary>
+            <param name="arst">The arrst segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckGlobalGeneral">
+            <summary>
+            Checks for global errors
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckError204OffenseCode(PSIMS.ThirdParty.Data.Ibr.Nibrs.Objects.INibrsOffenseSegment)">
+            <summary>
+            Checks for FBI Error 204 for Offense Code
+            </summary>
+            <param name="ofns">The offense segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.SetCrimeAgainst">
+            <summary>
+            Sets the crime type (Person, Property, Society) for the offense codes 
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEAdminSegment(PSIMS.ThirdParty.Data.Ibr.Nibrs.Objects.INibrsAdministrativeSegment)">
+            <summary>
+            Checks the administrative segment for data element errors
+            </summary>
+            <param name="admin">The administrative segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.ThrowDebugMessage(System.Exception,System.String)">
+            <summary>
+            Throws the given exception with a debug message added to aid third-parties in troubleshooting problems.
+            </summary>
+            <param name="exception">The exception being thrown.</param>
+            <param name="methodName">The name of the method containing throwing the exception.</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEArrestAddress(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsArrestSegmentGroupB)">
+            <summary>
+            Checks Arrest Address data element for errors
+            </summary>
+            <param name="arst">The Group B arrest segment containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorS724(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsArrestSegmentGroupB)">
+            <summary>
+            Checks for PSIMS Error S724
+            </summary>
+            <param name="arst">The arrest segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEArrestLongitude(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsArrestSegmentGroupB)">
+            <summary>
+            Checks Arrest Longitude for errors
+            </summary>
+            <param name="arst">The Group B arrest segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorS701ArrestLongitude(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsArrestSegmentGroupB)">
+            <summary>
+            Checks for PSIMS Error S701 in Arrest Longitude data element
+            </summary>
+            <param name="arst">The Group B arrest segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEArrestLatitude(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsArrestSegmentGroupB)">
+            <summary>
+            Checksthe Arrest Latitude data element for errors
+            </summary>
+            <param name="arst">The Group B arrest segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorS701ArrestLatitude(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsArrestSegmentGroupB)">
+            <summary>
+            Checks for PSIMS Error S701 in Arrest Latitude data element
+            </summary>
+            <param name="arst">The arrest segment containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEArrestArresteeDateOfBirth(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsArrestSegment)">
+            <summary>
+            Checks the Arrestee Date of Birth data element for errors
+            </summary>
+            <param name="arst">The arrest segment containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorsS614AndS714(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsArrestSegment)">
+            <summary>
+            Checks for PSIMS Errors S614 and S714
+            </summary>
+            <param name="arst">The arrest segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEAdminIncidentAddress(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsAdministrativeSegment)">
+            <summary>
+            Checks the Admin Incident Address data element for errors
+            </summary>
+            <param name="admin">The administrative segment containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorS124(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsAdministrativeSegment)">
+            <summary>
+            Checks for PSIMS Error S124
+            </summary>
+            <param name="admin">The administrative segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEAdminLongitude(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsAdministrativeSegment)">
+            <summary>
+            Checks the Admin Longitude data element for errors
+            </summary>
+            <param name="admin">The administrative segment containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorS101AdminLongitude(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsAdministrativeSegment)">
+            <summary>
+            Checks for PSIMS Error S101 in Longitude data element
+            </summary>
+            <param name="admin">The administrative segment containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEAdminLatitude(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsAdministrativeSegment)">
+            <summary>
+            Checks the Admin Latitude data element for errors
+            </summary>
+            <param name="admin">The administrative segment containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorS101AdminLatitude(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsAdministrativeSegment)">
+            <summary>
+            Checks for PSIMS Error S101 in Latitude data element
+            </summary>
+            <param name="admin">The administrative segment containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEAdminOfficerInvolvedShooting(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsAdministrativeSegment)">
+            <summary>
+            Checks the Admin Officer Involved Shooting data element for errors
+            </summary>
+            <param name="admin">The administrative segment containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_100(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsAdministrativeSegment)">
+            <summary>
+            Checks for TBI Error TN_100
+            </summary>
+            <param name="ofns">The admin segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEAdminInvestigatedByOutsideAgency(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsAdministrativeSegment)">
+            <summary>
+            Checks the Admin Investigated by Outside Agency data element for errors
+            </summary>
+            <param name="admin">The administrative segment containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_206_4(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsAdministrativeSegment)">
+            <summary>
+            Checks for TBI Error TN_206.4
+            </summary>
+            <param name="ofns">The admin segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_206_5(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsAdministrativeSegment)">
+            <summary>
+            Checks for TBI Error TN_206.5
+            </summary>
+            <param name="ofns">The admin segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorUCRR_013">
+            <summary>
+            Checks for TBI Error UCRR_013
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorUCRR_012">
+            <summary>
+            Checks for TBI Error UCRR_012
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorUCRR_011">
+            <summary>
+            Checks for TBI Error UCRR_011
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorUCRR_016">
+            <summary>
+            Checks for TBI Error UCRR_016
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEArrestWarrant(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsArrestSegmentGroupA)">
+            <summary>
+            Checks Arrest Warrant data element for errors
+            </summary>
+            <param name="arst">The arrest segment containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_604_1(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsArrestSegmentGroupA)">
+            <summary>
+            Checks for TBI Error TN_604.1
+            </summary>
+            <param name="arst">The arrest segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_601_2(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsArrestSegmentGroupA)">
+            <summary>
+            Checks for TBI Error TN_601.2
+            </summary>
+            <param name="arst">The arrest segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEArrestArresteeName(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsArrestSegment)">
+            <summary>
+            Checks Arrest Arrestee Name data element for errors
+            </summary>
+            <param name="arst">The arrest segment containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorsS604AndS704(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsArrestSegment)">
+            <summary>
+            Checks for PSIMS Errors S604 and S704
+            </summary>
+            <param name="arst">The arrest segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorsTN_601_1AndTN_701_1(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsArrestSegment)">
+            <summary>
+            Checks for TBI Errors TN_601.1 and TN_701.1
+            </summary>
+            <param name="arst"></param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEOffenderArresteeNumber(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenderSegment)">
+            <summary>
+            Checks Offender Arrestee Number data element for errors
+            </summary>
+            <param name="ofndr">The offender segment containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorS503(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenderSegment)">
+            <summary>
+            Checks for PSIMS Error S503
+            </summary>
+            <param name="ofndr">The offender segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_502_1(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenderSegment)">
+            <summary>
+            Checks for TBI Error TN_502.1
+            </summary>
+            <param name="ofndr">The offender segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEVictimClassification(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment)">
+            <summary>
+            Checks Victim Classification for data element errors
+            </summary>
+            <param name="vict">The victim segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorS401(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment)">
+            <summary>
+            Checks for PSIMS Error S401
+            </summary>
+            <param name="vict">The victim segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_404_6(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment)">
+            <summary>
+            Checks for TBI Error TN_404.6
+            </summary>
+            <param name="vict">The victim segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEVictimViolationProtectionOrder(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment)">
+            <summary>
+            Checks for Victim Violation of Order of Protection data element errors
+            </summary>
+            <param name="vict">The victim segement containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorS411(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment)">
+            <summary>
+            Checks for PSIMS Error S411
+            </summary>
+            <param name="vict">The victim segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_404_8(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment)">
+            <summary>
+            Checks for TBI Error TN_404.8
+            </summary>
+            <param name="vict">The victim segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_401_7(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment)">
+            <summary>
+            Checks for TBI Error TN_401.7
+            </summary>
+            <param name="vict">The victim segement to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEVictimTransportation(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment)">
+            <summary>
+            Checks Victim Transportation for data element errors
+            </summary>
+            <param name="vict">The victim segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_405_2(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment)">
+            <summary>
+            Checks for TBI Error TN_405.2
+            </summary>
+            <param name="vict">The victim segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_405_1(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment)">
+            <summary>
+            Checks for TBI Error TN_405.1
+            </summary>
+            <param name="vict">The victim segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_404_7(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment)">
+            <summary>
+            Checks for TBI Error TN_404.7
+            </summary>
+            <param name="vict">The victim segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_401_6(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment)">
+            <summary>
+            Checks for TBI Error TN_401.6
+            </summary>
+            <param name="vict">The victim segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEVictimSchoolCode(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment)">
+            <summary>
+            Checks Victim School Code data element for errors
+            </summary>
+            <param name="vict">The victim segment containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorS421(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment)">
+            <summary>
+            Checks for PSIMS Error S421
+            </summary>
+            <param name="vict">The victim segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_404_4(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment)">
+            <summary>
+            Checks for TBI Error TN_404.4
+            </summary>
+            <param name="vict">The victim segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_401_5(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment)">
+            <summary>
+            Checks for TBI Error TN_401.5
+            </summary>
+            <param name="vict">The victim segement to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEVictimOnCampus(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment)">
+            <summary>
+            Checks Victim Campus data element for errors
+            </summary>
+            <param name="vict">The victim segment containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_401_4(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment)">
+            <summary>
+            Checks for TBI Error TN_401.4
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEVictimDomesticViolence(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment)">
+            <summary>
+            Checks Victim Domestic Violence data element for errors
+            </summary>
+            <param name="vict">The victim segment containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_206_6(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment)">
+            <summary>
+            Checks for TBI Error TN_206.6
+            </summary>
+            <param name="vict">The victim segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_206_7(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment)">
+            <summary>
+            Checks for TBI Error TN_206.7
+            </summary>
+            <param name="vict">The victim segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_406_1(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment)">
+            <summary>
+            Checks for TBI Error TN_406.1
+            </summary>
+            <param name="vict">The victim segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEVictimRelationship(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment)">
+            <summary>
+            Checks Victim Relationship data element for errors
+            </summary>
+            <param name="vict">The victim segment containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_407(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment)">
+            <summary>
+            Checks for TBI Error TN_407
+            </summary>
+            <param name="vict">The victim segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEVictimPreviousDomesticViolence(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment)">
+            <summary>
+            Checks Victim Domestic Violence data element for errors
+            </summary>
+            <param name="vict">The victim segment containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_206_8(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment)">
+            <summary>
+            Checks for TBI Error TN_206.8
+            </summary>
+            <param name="vict">The victim segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_206_9(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment)">
+            <summary>
+            Checks for TBI Error TN_206.9
+            </summary>
+            <param name="vict">The victim segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_407_1(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment)">
+            <summary>
+            Checks for TBI Error TN_407.1
+            </summary>
+            <param name="vict">The victim segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_407_2(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment)">
+            <summary>
+            Checks for TBI Error TN_407.2
+            </summary>
+            <param name="vict">The victim segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEPropertyLongitudeMarijuanaPlots(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsPropertySegment)">
+            <summary>
+            Cheecks Property Longitude Marijuana Plots for data element errors
+            </summary>
+            <param name="prop">The property segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorS302PropertyLongitudeMarijuanaPlots(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsPropertySegment)">
+            <summary>
+            Checks for PSIMS Error S302 in Property Longitude Marijuana Plots data element
+            </summary>
+            <param name="prop">The property segment containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_304_4(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsPropertySegment)">
+            <summary>
+            Checks for TBI Error TN_304.4
+            </summary>
+            <param name="prop">The property segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEPropertyLatitudeMarijuanaPlots(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsPropertySegment)">
+            <summary>
+            Checks Property Latitude Marijuana Plots for data element errors
+            </summary>
+            <param name="prop">The property segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorS302PropertyLatitudeMarijuanaPlots(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsPropertySegment)">
+            <summary>
+            Checks for PSIMS Error S302 in Property Latitude Marijuana Plots data element
+            </summary>
+            <param name="prop">The property segment containg the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_304_3(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsPropertySegment)">
+            <summary>
+            Checks for TBI Error TN_304.3
+            </summary>
+            <param name="prop">The property segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEPropertyNumberMarijuanaPlots(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsPropertySegment)">
+            <summary>
+            Checks Property Number Marijuana Plots for data element errors
+            </summary>
+            <param name="prop">The property segment containg the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorS302PropertyNumberMarijuanaPlots(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsPropertySegment)">
+            <summary>
+            Check for PSIMS Error S302 in Property Number Marijuana Plots data element
+            </summary>
+            <param name="prop">The property segment containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_304_2(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsPropertySegment)">
+            <summary>
+            Checks for TBI Error TN_304.2
+            </summary>
+            <param name="prop">The property segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEPropertyLocationMarijuanaPlots(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsPropertySegment)">
+            <summary>
+            Checks Property Location Marijuana Plots for data element errors
+            </summary>
+            <param name="prop">The property segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorS302PropertyLocationMarijuanaPlots(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsPropertySegment)">
+            <summary>
+            Checks for PSIMS Error S302 in Property Location Marijuana Plots data element
+            </summary>
+            <param name="prop">The property segment containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_304_1(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsPropertySegment)">
+            <summary>
+            Checks for TBI Error TN_304.1
+            </summary>
+            <param name="prop">The property segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEOffenseDrugPrecursor(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment)">
+            <summary>
+            Checks Offense Drug Precursor for data element errors
+            </summary>
+            <param name="ofns">The offense segment containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorS212(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment)">
+            <summary>
+            Checks for PSIMS Error S212
+            </summary>
+            <param name="ofns">The offense segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_205_4(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment)">
+            <summary>
+            Checks for TBI Error TN_205.4
+            </summary>
+            <param name="ofns">The offense segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_204_8(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment)">
+            <summary>
+            Checks for TBI Error TN_204.8
+            </summary>
+            <param name="ofns">The offense segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEOffenseDrugOrigin(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment)">
+            <summary>
+            Checks Offense Drug Origin for data element errors
+            </summary>
+            <param name="ofns">The offense segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorS202OffenseDrugOrigin(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment)">
+            <summary>
+            Checks for PSIMS Error S202 in Offense Drug Origin data element
+            </summary>
+            <param name="ofns">The offense segment containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_205_3(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment)">
+            <summary>
+            Checks for TBI Error TN_205.3
+            </summary>
+            <param name="ofns">The offense segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_204_7(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment)">
+            <summary>
+            Checks for TBI Error TN_204.7
+            </summary>
+            <param name="ofns">The offense segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEOffenseDrugType(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment)">
+            <summary>
+            Checks Offense Drug Type data element for errors
+            </summary>
+            <param name="ofns">The offense segment containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorS202OffenseDrugType(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment)">
+            <summary>
+            Checks for PSIMS Error S202 in the Offense Drug Type data element
+            </summary>
+            <param name="ofns">The offense segment containg the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_205_2(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment)">
+            <summary>
+            Checks for TBI Error TN_205.2
+            </summary>
+            <param name="ofns">The offense segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_204_6(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment)">
+            <summary>
+            Checks for TBI Error TN_204.6
+            </summary>
+            <param name="ofns">The offense segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEOffenseDrugRelated(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment)">
+            <summary>
+            Checks Offense Drug Related data element for errors
+            </summary>
+            <param name="ofns">The offense containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_205_1(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment)">
+            <summary>
+            Checks for TBI Error TN_205.1
+            </summary>
+            <param name="ofns">The offense segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_204_5(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment)">
+            <summary>
+            Checks for TBI Error TN_204.5
+            </summary>
+            <param name="ofns">The offense segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_204_10(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment)">
+            <summary>
+            Checks for TBI Error TN_204.10
+            </summary>
+            <param name="ofns">The offense segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEOffenseHomeInvasion(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment)">
+            <summary>
+            Checks the Offense Home Invasion data element for errors
+            </summary>
+            <param name="ofns">The offense segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_201_4(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment)">
+            <summary>
+            Checks for TBI Error TN_201.4
+            </summary>
+            <param name="ofns">The offense segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_201_5(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment)">
+            <summary>
+            Checks for TBI Error TN_201.5
+            </summary>
+            <param name="ofns">The offense segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_204_3(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment)">
+            <summary>
+            Checks for TBI Error TN_204.3
+            </summary>
+            <param name="ofns">The offense segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_204_31(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment)">
+            <summary>
+            Checks for TBI Error TN_204.31
+            </summary>
+            <param name="ofns">The offense segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEOffenseIdentityTheft(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment)">
+            <summary>
+            Checks the Offense Identity Theft data element for errors
+            </summary>
+            <param name="ofns">The offense segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_206_1(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment)">
+            <summary>
+            Checks for TBI Error TN_206.1
+            </summary>
+            <param name="ofns">The offense segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_206_2(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment)">
+            <summary>
+            Checks for TBI Error TN_206.2
+            </summary>
+            <param name="ofns">The offense segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEOffenseGangName(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment)">
+            <summary>
+            Check the Offense Gang Name data elements for errors
+            </summary>
+            <param name="ofns">The offense segment cdontaining the data elements</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorS222(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment)">
+            <summary>
+            Checks for PSIMS Error S222
+            </summary>
+            <param name="ofns">The offense segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorS201(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment)">
+            <summary>
+            Checks for PSIMS Error S201
+            </summary>
+            <param name="ofns">The offense segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEOffenseGangType(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment)">
+            <summary>
+            Check the Offense Gang Type data elements for errors
+            </summary>
+            <param name="ofns">The offense segment cdontaining the data elements</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorS211OffenseGangType(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment)">
+            <summary>
+            Checks for PSIMS Error S211 in Offense Gang Type data element
+            </summary>
+            <param name="ofns">The offense segment containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_204_2(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment)">
+            <summary>
+            Checks for TBI Error TN_204.2
+            </summary>
+            <param name="ofns">The offense segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_201_2GangType(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment)">
+            <summary>
+            Checks for TBI Error TN_201.2 for Gang Type
+            </summary>
+            <param name="ofns">The offense segment containg the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_201_2GangName(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment)">
+            <summary>
+            Checks for TBI Error TN_201.2 for Gang Name
+            </summary>
+            <param name="ofns">The offense segment containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEOffenseGangActivity(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment)">
+            <summary>
+            Check the Offense Gang Activity data element for errors
+            </summary>
+            <param name="ofns">The offense segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_204_1(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsOffenseSegment)">
+            <summary>
+            Checks for TBI Error TN_204.1
+            </summary>
+            <param name="ofns">The offense segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorMP_210(PSIMS.ThirdParty.Data.Ibr.Nibrs.Objects.INibrsVictimSegment)">
+            <summary>
+            Checks for TBI Error MP_210
+            </summary>
+            <param name="vict">The victim segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorMP_13A(PSIMS.ThirdParty.Data.Ibr.Nibrs.Objects.INibrsVictimSegment)">
+            <summary>
+            Checks for TBI Error MP_13A
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorMP_39C_9(PSIMS.ThirdParty.Data.Ibr.Nibrs.Objects.INibrsPropertySegment)">
+            <summary>
+            Checks for TBI Error MP_39C.9
+            </summary>
+            <param name="prop">The property segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorMP_35A_5_8(PSIMS.ThirdParty.Data.Ibr.Nibrs.Objects.INibrsPropertySegment)">
+            <summary>
+            Checks for TBI Error MP_35A.8
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorMP_35A_7(PSIMS.ThirdParty.Data.Ibr.Nibrs.Objects.INibrsPropertySegment)">
+            <summary>
+            Checks for TBI Error MP_35A.7
+            </summary>
+            <param name="prop"></param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorMP_35A_6(PSIMS.ThirdParty.Data.Ibr.Nibrs.Objects.INibrsPropertySegment)">
+            <summary>
+            Checks for TBI Error MP_35A.6
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorMP_35A_5(PSIMS.ThirdParty.Data.Ibr.Nibrs.Objects.INibrsPropertySegment)">
+            <summary>
+            Check for TBI Error MP_35A.5
+            </summary>
+            <param name="prop">The property segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckOffense290">
+            <summary>
+            Checo offense 290 for errors
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorMP_290_1">
+            <summary>
+            Check for TBI Error MP_290.1
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorMP_250_9(PSIMS.ThirdParty.Data.Ibr.Nibrs.Objects.INibrsPropertySegment)">
+            <summary>
+            Checks for TBI Error MP_250.9
+            </summary>
+            <param name="prop">The property segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckOffense250">
+            <summary>
+            Checks offense 250 for errors
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorMP_250_1">
+            <summary>
+            Checks for TBI Error MP_250.1
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckOffense240">
+            <summary>
+            Checks offense 240 for errors
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorMP_240_4">
+            <summary>
+            Checks for TBI Error MP_240.4
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorMP_23C_1">
+            <summary>
+            Checks for TBI Error MP_23C.1
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorMP_220_1">
+            <summary>
+            Checks for TBI Error MP_220.1
+            </summary>    
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorMP_220_2">
+            <summary>
+            Checks for TBI Error MP_220.2
+            </summary>    
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorMP_220_3">
+            <summary>
+            Checks for TBI Error MP_220.3
+            </summary>    
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckOffense100">
+            <summary>
+            Checks offense 100 for errors
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorMP_100_1">
+            <summary>
+            Checks for TBI Error MP_100.1
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckOffense120">
+            <summary>
+            Checks offense 120 for errors
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorMP_120_1">
+            <summary>
+            Checks for TBI Error MP_120.1
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckOffense200">
+            <summary>
+            Checks offense 200 for errors
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorMP_200_1">
+            <summary>
+            Checks for TBI Error MP_200.1
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorS651">
+            <summary>
+            Checks for TBI Error 651
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorS618AndS718(PSIMS.ThirdParty.Data.Ibr.Nibrs.Objects.INibrsArrestSegment)">
+            <summary>
+            Checks for TBI Errors 618 and 718
+            </summary>
+            <param name="arst">The arrest segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorS482(PSIMS.ThirdParty.Data.Ibr.Nibrs.Objects.INibrsVictimSegment)">
+            <summary>
+            Checks for TBI Error 482
+            </summary>
+            <param name="vict">The victim segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorS473(PSIMS.ThirdParty.Data.Ibr.Nibrs.Objects.INibrsVictimSegment)">
+            <summary>
+            Checks for TBI Error 473
+            </summary>
+            <param name="vict">The victim segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEVictimLeokaOriOtherJurisdiction(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment)">
+            <summary>
+            Checks the Victim LEOKA ORI - Other Jurisdiction data element for errors
+            </summary>
+            <param name="vict">The victim segment containg the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorS483LeokaOriOtherJurisdiction(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment)">
+            <summary>
+            Checks for TBI Error 483 in LEOKA ORI - Other Jurisdiction
+            </summary>
+            <param name="vict">The victim segment containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEVictimLeokaTypeActivity(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment)">
+            <summary>
+            Checks the Victim LEOKA Type Activity data element for errors
+            </summary>
+            <param name="vict">The victim segment containg the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorS404VictimLeokaTypeActivity(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment)">
+            <summary>
+            Checks for PSIMS Error S404 in Victim Leoka Type Activity data element
+            </summary>
+            <param name="vict">The victim segment containg the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorTN_401_1(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment)">
+            <summary>
+            Checks for TBI Error TN_401.1
+            </summary>
+            <param name="vict">The victim segment to check</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorS454LeokaTypeActivity(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment)">
+            <summary>
+            Checks for TBI Error 454 in Victim LEOKA Type Activity
+            </summary>
+            <param name="vict">The victim segment containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckDEVictimLeokaAssignmentType(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment)">
+            <summary>
+            Checks the Victim LEOKA Assignment Type data element for errors
+            </summary>
+            <param name="vict">The victim segment containg the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorS404VictimLeokaAssignmentType(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment)">
+            <summary>
+            Checks for PSIMS Error S404 in Victim Leoka Assignment Type data element
+            </summary>
+            <param name="vict">The victim segment containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.CheckErrorS454LeokaAssignmentType(PSIMS.ThirdParty.Data.Ibr.TnTibrs.Objects.ITibrsVictimSegment)">
+            <summary>
+            Checks for TBI Error 454 in Victim LEOKA Assignment Type
+            </summary>
+            <param name="vict">The victim segment containg the data element</param>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.TibrsData">
+            <summary>
+            Gets the TIBRS data to validate
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.TnTibrs.Validation.TibrsValidator.OriIsCollege">
+            <summary>
+            Returns true if the ORI is a college or university
+            </summary>
+        </member>
+    </members>
+</doc>

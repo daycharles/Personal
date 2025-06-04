@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OFML>
+  <HDR>
+    <APP>YourApp</APP>
+    <ID>YourID</ID>
+    <ORI>YourORI</ORI>
+    <MKE>YourMKE</MKE>
+    <SUM>Vehicle Query</SUM>
+    <DAT>20240520132251</DAT>
+  </HDR>
+  <TRN>
+    <LIC>AVC3RE</LIC>
+    <LIS />
+    <LIT />
+    <LIY />
+    <VIN />
+    <VMA />
+    <VYR />
+  </TRN>
+</OFML>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PSIMS>
+  <Command>
+    <Verb>NEWSTATEDATA</Verb>
+    <Call>
+      <Agency>0</Agency>
+      <CallYear>0</CallYear>
+      <CallID>0</CallID>
+    </Call>
+    <StateData>
+      <SubType></SubType>
+      <Query></Query>
+      <QueryKey></QueryKey>
+      <QueryFor></QueryFor>
+      <Sequence></Sequence>
+      <Date>2024-11-15T07:24:19.0282990-05:00</Date>
+      <Record>SOS  20241017  074827
+
+DL/IP STA/SUSPENDED
+TDL/TIP STA/SEE ILOLNHELP
+CDL/CIP STA/SEE ILOLNHELP
+SCHLBUS STA/NOT A SCHOOL BUS DRIVER (SEE ILOLNHELP)
+
+PUBLIC JOHN Q
+123 S NORTH  SPRINGFIELD  62702
+SEX/M DOB/08061954 HGT/6'02" WGT/200 HAI/BRO EYE/BLU 
+OLN/P142-4755-4223  OLC/D* OLT/ORIGINAL EXP/08062021 ISS/10172017 
+RES-PID CLASS/NONE
+01 STOPS IN EFFECT
+03 CONV LAST 12 MO
+SUSP 08272024  6-206A2               10272024
+CONV 06242024  11-601                CHAM
+CONV 06242024  11-1204               CHAM
+CONV 06052024  11-601                CHAM
+END
+</Record>
+    </StateData>
+  </Command>
+</PSIMS>

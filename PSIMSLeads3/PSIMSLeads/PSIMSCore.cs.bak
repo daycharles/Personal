@@ -1,0 +1,454 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: PSIMSLeads.PSIMSCore
+// Assembly: PSIMSLeads, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+// MVID: 8F869825-C640-4B79-A929-827AD5AD2C29
+// Assembly location: C:\Users\cd104535\Downloads\PSIMSLeads 86.exe
+
+using Newtonsoft.Json;
+using PSIMSLeads.PSIMSLeads;
+using System;
+using System.IO;
+using System.Net.Sockets;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Xml.Linq;
+
+#nullable disable
+namespace PSIMSLeads
+{
+    public class PSIMSCore : IDisposable
+    {
+        public static PSIMSCore _core;
+        private readonly Action<string> _updateUI;
+        private CancellationTokenSource _cancellationTokenSource;
+        private TcpClient _client;
+        private ConfigurationReader _configReader;
+        private bool _endCoreRecv;
+        private bool _isConnected;
+        private PSIMSLeadsQuery _leadsQuery;
+        private SemaphoreSlim _semaphore;
+        internal NetworkStream _stream;
+        private TextBox _textLog;
+
+        public PSIMSCore(Action<string> updateUI, bool endCoreRecv, TextBox textLog)
+        {
+            _updateUI = updateUI;
+            _leadsQuery = new PSIMSLeadsQuery(textLog);
+            _endCoreRecv = endCoreRecv;
+            _configReader = new ConfigurationReader();
+            _textLog = textLog;
+            _core = this;
+            _cancellationTokenSource = new CancellationTokenSource();
+            _semaphore = new SemaphoreSlim(10);
+        }
+
+        public void Dispose()
+        {
+            _cancellationTokenSource.Cancel();
+            _client?.Dispose();
+            _stream?.Dispose();
+            _cancellationTokenSource?.Dispose();
+            _semaphore?.Dispose();
+        }
+
+        public static PSIMSCore GetCoreClient() => _core;
+
+        public async Task StartAsync(string coreAddr, int corePort)
+        {
+            try
+            {
+                _updateUI("Core Communication Started");
+                _client = new TcpClient();
+                await _client.ConnectAsync(coreAddr, corePort);
+                _stream = _client.GetStream();
+                _isConnected = true;
+                LogResponse($"Connecting to {coreAddr}, Port {corePort}");
+                _updateUI($"Core Communication Connected {coreAddr}:{corePort}");
+                await ListenForDataAsync(_cancellationTokenSource.Token);
+                await SendCoreCommandAsync(1, null);
+            }
+            catch (Exception ex)
+            {
+                _updateUI("Error: " + ex.Message);
+            }
+            finally
+            {
+                _isConnected = false;
+                _client?.Close();
+                _updateUI("Core Communication Ended");
+            }
+        }
+
+        private async Task ListenForDataAsync(CancellationToken cancellationToken)
+        {
+            try
+            {
+                while (!_endCoreRecv)
+                {
+                    if (!_isConnected)
+                        break;
+
+                    if (!cancellationToken.IsCancellationRequested)
+                    {
+                        try
+                        {
+                            if (_client.Available > 0)
+                            {
+                                LogResponse($"CORE:(ListenForDataAsync) Data available: {_client.Available} bytes");
+                                var buffer = new byte[_client.Available];
+                                var num = await _stream.ReadAsync(buffer, 0, buffer.Length, cancellationToken);
+                                if (num > 0)
+                                {
+                                    LogResponse($"CORE:(ListenForDataAsync) Read {num} bytes from stream.");
+                                    await _semaphore.WaitAsync(cancellationToken);
+                                    await Task.Run(() => ProcessDataAsync(buffer, cancellationToken)).ContinueWith(t => _semaphore.Release());
+                                }
+                            }
+                            else
+                            {
+                                await Task.Delay(50, cancellationToken);
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            LogResponse("CORE:(ListenForDataAsync) Error in data reading loop: " + ex.Message);
+                            await Task.Delay(100, cancellationToken);
+                        }
+                    }
+                    else
+                    {
+                        break;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                LogResponse("CORE:(ListenForDataAsync) Critical error in ListenForDataAsync: " + ex.Message);
+            }
+            finally
+            {
+                _isConnected = false;
+                _client?.Close();
+                _updateUI("CORE:(ListenForDataAsync) Core Communication Ended");
+            }
+        }
+
+        private async Task ProcessDataAsync(byte[] data, CancellationToken cancellationToken)
+        {
+            try
+            {
+                LogResponse($"CORE:(ProcessDataAsync) Processing data packet of {data.Length} bytes");
+                if (data.Length < 145)
+                    LogResponse($"CORE:(ProcessDataAsync) Received packet too small: {data.Length} bytes");
+                else
+                    await ParseCoreDataPacket(data, cancellationToken);
+            }
+            catch (Exception ex)
+            {
+                LogResponse("CORE:(ProcessDataAsync) Error processing data: " + ex.Message + "\n" + ex.StackTrace);
+            }
+        }
+
+        public async Task ParseCoreDataPacket(byte[] data, CancellationToken cancellationToken)
+        {
+            try
+            {
+                LogResponse(
+                    $"CORE:(ParseCoreDataPacket) Request from {Encoding.ASCII.GetString(data, 9, 128).TrimEnd(new char[1])}{Environment.NewLine}Request Response: {BitConverter.ToInt32(data, 137)}");
+                var packet = new CoreDataPacket()
+                {
+                    ucType = data[0],
+                    nFromService = BitConverter.ToInt32(data, 1),
+                    nToService = BitConverter.ToInt32(data, 5),
+                    aClientAddress = Encoding.ASCII.GetString(data, 9, 128).TrimEnd(new char[1]),
+                    nRequestResponse = BitConverter.ToInt32(data, 137),
+                    nDataLen = BitConverter.ToInt32(data, 141),
+                    aData = new byte[BitConverter.ToInt32(data, 141)]
+                };
+                JsonConvert.SerializeObject(packet);
+                Array.Copy(data, 145, packet.aData, 0, packet.aData.Length);
+                await ProcessCoreData(packet, cancellationToken);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("CORE:(ParseCoreDataPacket) RError parsing CoreDataPacket: " + ex.Message);
+            }
+        }
+
+        private async Task ProcessCoreData(CoreDataPacket packet, CancellationToken cancellationToken)
+        {
+            var xmlFromData = ExtractXmlFromData(packet.aData);
+            var empty = string.Empty;
+            XElement xelement;
+            if (xmlFromData != null)
+            {
+                var text = xmlFromData.Trim();
+                if (xmlFromData.StartsWith("<?xml"))
+                {
+                    var num = xmlFromData.IndexOf("?>", StringComparison.Ordinal);
+                    if (num >= 0)
+                        text = xmlFromData.Substring(num + 2).Trim();
+                }
+                xelement = XElement.Parse(CleanInvalidXmlChars(text).Trim().Replace("\r", ""));
+            }
+            else
+                xelement = XElement.Parse(Encoding.UTF8.GetString(packet.aData));
+            var str1 = xelement.Element("Control")?.Element("WSID")?.Value;
+            var str2 = xelement.Element("Control")?.Element("Agency")?.Value;
+            var str3 = xelement.Element("Control")?.Element("StateUserName")?.Value;
+            var str4 = xelement.Element("Control")?.Element("UserName")?.Value;
+            var str5 = xelement.Element("Control")?.Element("Badge")?.Value;
+            var str6 = xelement.Element("StateQuery")?.Element("Parameters").Value;
+            var model = new QueryKey()
+            {
+                Agency = Convert.ToInt32(str2),
+                WSID = str1,
+                StateUsername = str3,
+                Username = str4,
+                LeadsService = packet.nToService,
+                Query = xelement.ToString(),
+                QueryParams = str6,
+                Badge = str5,
+                QueryFor = str5 + ":" + str4,
+                ToService = packet.nFromService
+            };
+            switch (packet.nRequestResponse)
+            {
+                case 107:
+                case 605:
+                case 1011:
+                    var str7 = IdentifyRequestType(xelement.ToString());
+                    if (str7 == null)
+                        break;
+                    switch (str7.Length)
+                    {
+                        case 5:
+                            if (str7 != "Plate")
+                                return;
+                            LogResponse("CORE:(ProcessCoreData) Ad Hoc Query send to PSIMSLeadsCMD" + Environment.NewLine);
+                            model.QueryType = "Plate";
+                            model.RequestResponse = 2106;
+                            JsonConvert.SerializeObject(model);
+                            var queryKey1 = await _leadsQuery.BuildAdHocStateQuery(model, _configReader);
+                            return;
+                        case 6:
+                            if (str7 != "Person")
+                                return;
+                            LogResponse("CORE:(ProcessCoreData) Ad Hoc Query send to PSIMSLeadsCMD" + Environment.NewLine);
+                            model.QueryType = "Person";
+                            model.RequestResponse = 2106;
+                            JsonConvert.SerializeObject(model);
+                            var queryKey2 = await _leadsQuery.BuildAdHocStateQuery(model, _configReader);
+                            return;
+                        case 7:
+                            switch (str7[4])
+                            {
+                                case 'A':
+                                    if (str7 != "PSA ART")
+                                        return;
+                                    model.RequestResponse = 2106;
+                                    LogResponse("CORE:(ProcessCoreData) Ad Hoc Query send to PSIMSLeadsCMD" + Environment.NewLine);
+                                    model.QueryType = "PSA ART";
+                                    JsonConvert.SerializeObject(model);
+                                    var queryKey3 = await _leadsQuery.BuildAdHocStateQuery(model, _configReader);
+                                    return;
+                                case 'G':
+                                    if (str7 != "PSA GUN")
+                                        return;
+                                    model.RequestResponse = 2106;
+                                    LogResponse("CORE:(ProcessCoreData) Ad Hoc Query send to PSIMSLeadsCMD" + Environment.NewLine);
+                                    model.QueryType = "PSA GUN";
+                                    JsonConvert.SerializeObject(model);
+                                    var queryKey4 = await _leadsQuery.BuildAdHocStateQuery(model, _configReader);
+                                    return;
+                                case 'N':
+                                    if (str7 != "PSA NSX")
+                                        return;
+                                    model.RequestResponse = 2106;
+                                    LogResponse("CORE:(ProcessCoreData) Ad Hoc Query send to PSIMSLeadsCMD" + Environment.NewLine);
+                                    model.QueryType = "PSA NSX";
+                                    JsonConvert.SerializeObject(model);
+                                    var queryKey5 = await _leadsQuery.BuildAdHocStateQuery(model, _configReader);
+                                    return;
+                                default:
+                                    return;
+                            }
+                        case 8:
+                            if (str7 != "PSA FOID")
+                                return;
+                            model.RequestResponse = 2106;
+                            LogResponse("CORE:(ProcessCoreData) Ad Hoc Query send to PSIMSLeadsCMD" + Environment.NewLine);
+                            model.QueryType = "PSA FOID";
+                            JsonConvert.SerializeObject(model);
+                            var queryKey6 = await _leadsQuery.BuildAdHocStateQuery(model, _configReader);
+                            return;
+                        case 9:
+                            return;
+                        case 10:
+                            if (str7 != "PSA Person")
+                                return;
+                            LogResponse("CORE:(ProcessCoreData) Ad Hoc Query send to PSIMSLeadsCMD" + Environment.NewLine);
+                            model.QueryType = "PSA Person";
+                            model.RequestResponse = 2106;
+                            JsonConvert.SerializeObject(model);
+                            var queryKey7 = await _leadsQuery.BuildAdHocStateQuery(model, _configReader);
+                            return;
+                        case 11:
+                            if (str7 != "PSA License")
+                                return;
+                            LogResponse("CORE:(ProcessCoreData) Ad Hoc Query send to PSIMSLeadsCMD" + Environment.NewLine);
+                            model.QueryType = "PSA License";
+                            model.RequestResponse = 2106;
+                            JsonConvert.SerializeObject(model);
+                            var queryKey8 = await _leadsQuery.BuildAdHocStateQuery(model, _configReader);
+                            return;
+                        default:
+                            return;
+                    }
+                case 1001:
+                case 1002:
+                    var str8 = xelement.Element("Vehicle")?.Element("Agency")?.Value;
+                    var int32_1 = Convert.ToInt32(xelement.Element("Vehicle")?.Element("CallYear")?.Value);
+                    var int32_2 = Convert.ToInt32(xelement.Element("Vehicle")?.Element("CallID")?.Value);
+                    model.Agency = Convert.ToInt32(str8);
+                    model.CallYear = int32_1;
+                    model.CallID = int32_2;
+                    model.QueryType = "Call";
+                    model.RequestResponse = 3003;
+                    JsonConvert.SerializeObject(model);
+                    await _leadsQuery.BuildCallVehicle(model, _configReader);
+                    break;
+                case 1101:
+                case 1102:
+                    var str9 = xelement.Element("Person")?.Element("Agency")?.Value;
+                    var int32_3 = Convert.ToInt32(xelement.Element("Person")?.Element("CallYear")?.Value);
+                    var int32_4 = Convert.ToInt32(xelement.Element("Person")?.Element("CallID")?.Value);
+                    model.Agency = Convert.ToInt32(str9);
+                    model.CallYear = int32_3;
+                    model.CallID = int32_4;
+                    model.QueryType = "Call";
+                    model.RequestResponse = 3003;
+                    JsonConvert.SerializeObject(model);
+                    await _leadsQuery.BuildCallPerson(model, _configReader);
+                    break;
+            }
+        }
+
+        public string IdentifyRequestType(string xmlContent)
+        {
+            try
+            {
+                var xelement1 = XElement.Parse(xmlContent);
+                var xelement2 = xelement1.Element("Command");
+                var xelement3 = xelement1.Element("CommandType");
+                if (xelement2 != null && xelement3 != null)
+                {
+                    switch (xelement1.Element("StateQuery")?.Element("Name")?.Value)
+                    {
+                        case "LIC":
+                            return "PSA License";
+                        case "NAM":
+                            return "PSA Person";
+                        case "NSX":
+                            return "PSA NSX";
+                        case "ART":
+                            return "PSA ART";
+                        case "FOID":
+                            return "PSA FOID";
+                        case "GUN":
+                            return "PSA GUN";
+                    }
+                }
+                else
+                {
+                    switch (xelement1.Element("StateQuery")?.Element("Name")?.Value)
+                    {
+                        case "LIC":
+                            return "Plate";
+                        case "NAM":
+                            return "Person";
+                    }
+                }
+                return "CORE:(IdentifyRequestType) Unknown Request Type";
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("CORE:(IdentifyRequestType) Error parsing XML: " + ex.Message);
+                return "Error";
+            }
+        }
+
+        private async Task SendCoreCommandAsync(int command, byte[] data)
+        {
+            try
+            {
+                if (!_isConnected || _stream == null)
+                    return;
+                using (var ms = new MemoryStream())
+                {
+                    ms.WriteByte(1);
+                    ms.WriteByte((byte)command);
+                    if (data != null)
+                        ms.Write(data, 0, data.Length);
+                    var array = ms.ToArray();
+                    await _stream.WriteAsync(array, 0, array.Length);
+                    _updateUI("CORE:(SendCoreCommandAsync) Core command sent.");
+                }
+            }
+            catch (Exception ex)
+            {
+                _updateUI("CORE:(SendCoreCommandAsync) Error sending core command: " + ex.Message);
+            }
+        }
+
+        private string ExtractXmlFromData(byte[] data)
+        {
+            try
+            {
+                LogResponse("CORE:(ExtractXmlFromData) Attempting to extract XML from data...");
+                var str = Encoding.UTF8.GetString(data);
+                var startIndex = str.IndexOf("<?xml", StringComparison.Ordinal);
+                if (startIndex != -1)
+                {
+                    var xmlFromData = str.Substring(startIndex).Trim(new char[1]);
+                    LogResponse("CORE:(ExtractXmlFromData) Extracted XML: " + xmlFromData);
+                    return xmlFromData;
+                }
+                _updateUI("CORE:(ExtractXmlFromData) No XML found in data.");
+                return null;
+            }
+            catch (Exception ex)
+            {
+                _updateUI("CORE:(ExtractXmlFromData) Error extracting XML: " + ex.Message);
+                return null;
+            }
+        }
+
+        public static string CleanInvalidXmlChars(string text)
+        {
+            if (string.IsNullOrEmpty(text))
+                return text;
+            var stringBuilder = new StringBuilder();
+            foreach (var ch in text)
+            {
+                if (ch == '\t' || ch == '\n' || ch == '\r' || ch >= ' ' && ch <= '\uD7FF' || ch >= '\uE000' && ch <= '�')
+                    stringBuilder.Append(ch);
+            }
+            stringBuilder.Replace(" ", "");
+            return stringBuilder.ToString();
+        }
+
+        private void LogResponse(string message)
+        {
+            Logger.WriteToLogFile(message);
+            if (_textLog.InvokeRequired)
+                _textLog.Invoke(() => _textLog.AppendText(
+                    $"{DateTime.Now:yyyy-MM-dd HH:mm:ss} - {Environment.NewLine}{message}{Environment.NewLine}{Environment.NewLine}"));
+            else
+                _textLog.AppendText(
+                    $"{DateTime.Now:yyyy-MM-dd HH:mm:ss} - {Environment.NewLine}{message}{Environment.NewLine}{Environment.NewLine}");
+        }
+    }
+}

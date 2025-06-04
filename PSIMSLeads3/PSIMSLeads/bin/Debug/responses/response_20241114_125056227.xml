@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PSIMS>
+  <Control>
+    <WSID>D:HAR-GRSOA5ZNIEE</WSID>
+  </Control>
+  <Command>
+    <Verb>NEWSTATEDATA</Verb>
+    <StateData>
+      <Date>2024-11-14T12:50:56.2128016-05:00</Date>
+      <Record>
+
+  CHF
+  
+  NO LEADS RECORD(S) FOUND MATCHING CRITERIA
+  VIN/1111111111111111
+  
+MRI: 2155 IN: FHFS 64 AT 17OCT2024 07:48:27
+OUT: N5I 248 AT 17OCT2024 07:48:27
+
+  </Record>
+    </StateData>
+  </Command>
+</PSIMS>

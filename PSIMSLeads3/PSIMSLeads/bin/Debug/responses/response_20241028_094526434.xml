@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PSIMS>
+  <Control>
+    <WSID>D:HAR-GRSOA5ZNIEE</WSID>
+  </Control>
+  <Command>
+    <Verb>NEWSTATEDATA</Verb>
+    <StateData>
+      <Date>2024-10-28T09:45:26.4161173-04:00</Date>
+      <Record>SOS  10172024  0748
+
+TBD ADDRESS NOT VERIFIED WITH POST OFFICE
+
+STA/EXPIRED VAL/00002000 
+
+BJ9999    032021  ORIG PLT  
+PUBLIC JOHN Q
+
+123 S NORTH RD SPRINGFIELD IL 62702-0000
+P142-4755-4223
+1111111111111111      2012 CHEVROLET     UTILITY  
+EXPIRED - HAS ADDITIONAL REASONS
+
+</Record>
+    </StateData>
+  </Command>
+</PSIMS>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PSIMS>
+  <Command>
+    <Verb>NEWSTATEDATA</Verb>
+    <Call>
+      <Agency>0</Agency>
+      <CallYear>0</CallYear>
+      <CallID>0</CallID>
+    </Call>
+    <StateData>
+      <SubType />
+      <Query></Query>
+      <QueryFor></QueryFor>
+      <Sequence></Sequence>
+      <Date>2024-11-13T09:44:00.2330040-05:00</Date>
+      <Record>
+
+  CHF
+  
+  NO LEADS RECORD(S) FOUND MATCHING CRITERIA
+  VIN/1111111111111111
+  
+MRI: 2155 IN: FHFS 64 AT 17OCT2024 07:48:27
+OUT: N5I 248 AT 17OCT2024 07:48:27
+
+  </Record>
+    </StateData>
+  </Command>
+</PSIMS>

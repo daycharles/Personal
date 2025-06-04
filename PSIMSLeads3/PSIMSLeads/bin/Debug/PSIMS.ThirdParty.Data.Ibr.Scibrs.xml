@@ -1,0 +1,329 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PSIMS.ThirdParty.Data.Ibr.Scibrs</name>
+    </assembly>
+    <members>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.IScibrsAdministrativeSegment">
+            <summary>
+            Represents a SCIBRS Administrative Segment
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.IScibrsAdministrativeSegment.TractGeoIndicator">
+            <summary>
+            Gets/Sets TractGeoIndicator
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.IScibrsAdministrativeSegment.StatusIndicator">
+            <summary>
+            Gets/Sets StatusIndicator
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.IScibrsAdministrativeSegment.StatusChangeDate">
+            <summary>
+            Gets/Sets StatusChangeDate
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.IScibrsAdministrativeSegment.EndDate">
+            <summary>
+            Gets/Sets EndDate
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.IScibrsAdministrativeSegment.EndTime">
+            <summary>
+            Gets/Sets EndTime
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.IScibrsArrestSegment">
+            <summary>
+            Represents a SCIBRS Arrest Segment (both Group A or Group B)
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.IScibrsArrestSegment.AdditionalArrestOffenseCodes">
+            <summary>
+            Gets/Sets AdditionalArrestOffenseCodes
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.IScibrsArrestSegmentGroupA">
+            <summary>
+            Represents a SCIBRS Group A Arrest Segment
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.IScibrsArrestSegmentGroupA.DrugTypeActivity">
+            <summary>
+            Gets/Sets DrugTypeActivity
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.IScibrsArrestSegmentGroupA.DrugDescription">
+            <summary>
+            Gets/Sets DrugDescription
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.IScibrsArrestSegmentGroupB">
+            <summary>
+            Represents a SCIBRS Group B Arrest Segment 
+            </summary>  
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.IScibrsData">
+            <summary>
+            Represents the data for an entire SCIBRS incident
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.IScibrsData.ArrestNumberNotUnique">
+            <summary>
+            Gets/Sets ArrestNumberNotUnique
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.IScibrsData.ScibrsAdministrativeSegment">
+            <summary>
+            Gets the ScibrsAdministrativeSegment
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.IScibrsOffenderSegment">
+            <summary>
+            Represents a SCIBRS Offender Segment
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.IScibrsOffenderSegment.Ethnicity">
+            <summary>
+            Gets/Sets Ethnicity
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.IScibrsOffenseSegment">
+            <summary>
+            Represents a SCIBRS Offense Segment
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.IScibrsOffenseSegment.VictimUsed">
+            <summary>
+            Gets/Sets VictimUsed
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.IScibrsOffenseSegment.AdditionalLocationSite">
+            <summary>
+            Gets/Sets AdditionalLocationSite
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.IScibrsOffenseSegment.SpecialCircumstances">
+            <summary>
+            Gets/Sets SpecialCircumstances
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.IScibrsOffenseSegment.OffenseDate">
+            <summary>
+            Gets/Sets OffenseDate
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.IScibrsOffenseSegment.HasSpecialCircumstance(System.String)">
+            <summary>
+            Returns whether or not this IScibrsOffense contains the circumstance code specified.
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.IScibrsPropertySegment">
+            <summary>
+            Represents a SCIBRS Property Segment
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.IScibrsPropertySegment.RecoveryOri">
+            <summary>
+            Gets/Sets RecoveryOri
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.IScibrsVictimSegment">
+            <summary>
+            Represents a SCIBRS Victim Segment
+            </summary>  
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.IScibrsVictimSegment.LeokaActivity">
+            <summary>
+            Gets/Sets LeokaActivity
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.IScibrsVictimSegment.LeokaAssignment">
+            <summary>
+            Gets/Sets LeokaAssignment
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.ScibrsAdministrativeSegment">
+            <summary>
+            SCIBRS Administrative Segment data
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.ScibrsAdministrativeSegment.TractGeoIndicator">
+            <summary>
+            Gets/Sets TractGeoIndicator
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.ScibrsAdministrativeSegment.StatusIndicator">
+            <summary>
+            Gets/Sets StatusIndicator
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.ScibrsAdministrativeSegment.StatusChangeDate">
+            <summary>
+            Gets/Sets StatusChangeDate
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.ScibrsAdministrativeSegment.EndDate">
+            <summary>
+            Gets/Sets EndDate
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.ScibrsAdministrativeSegment.EndTime">
+            <summary>
+            Gets/Sets EndTime
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.ScibrsArrestSegment">
+            <summary>
+            Base class for SCIBRS Arrest Segments (both Group A and Group B)
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.ScibrsArrestSegment.#ctor(System.String)">
+            <summary>
+            Creates a new instance of the ScibrsArrestSegment class with the specified parameters.
+            </summary>
+            <param name="segmentType">The segment type (number)</param>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.ScibrsArrestSegment.AdditionalArrestOffenseCodes">
+            <summary>
+            Gets/Sets AdditionalArrestOffenseCodes
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.ScibrsArrestSegmentGroupA">
+            <summary>
+            SCIBRS Group A Arrest Segment
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.ScibrsArrestSegmentGroupA.#ctor">
+            <summary>
+            Creates a new instance of the ScibrsArrestSegmentGroupA class with the default parameters.
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.ScibrsArrestSegmentGroupA.DrugTypeActivity">
+            <summary>
+            Gets/Sets DrugTypeActivity
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.ScibrsArrestSegmentGroupA.DrugDescription">
+            <summary>
+            Gets/Sets DrugDescription
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.ScibrsArrestSegmentGroupB">
+            <summary>
+            SCIBRS Group B Arrest Segment
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.ScibrsArrestSegmentGroupB.#ctor">
+            <summary>
+            Creates a new instance of the ScibrsArrestSegmentGroupB class with the default parameters.
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.ScibrsData.#ctor">
+            <summary>
+            Creates a new instance of the ScibrsData class with the default parameters.
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.ScibrsData.AdministrativeSegment">
+            <summary>
+            Gets/Sets AdministrativeSegment
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.ScibrsData.ArrestNumberNotUnique">
+            <summary>
+            Gets/Sets ArrestNumberNotUnique
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.ScibrsData.ScibrsAdministrativeSegment">
+            <summary>
+            Gets ScibrsAdministrativeSegment
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.ScibrsOffenderSegment">
+            <summary>
+            SCIBRS Offender Segment
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.ScibrsOffenderSegment.Ethnicity">
+            <summary>
+            Gets/Sets Ethnicity
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.ScibrsOffenseSegment">
+            <summary>
+            SCIBRS Offense Segment
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.ScibrsOffenseSegment.#ctor">
+            <summary>
+            Creates a new instance of the ScibrsOffenseSegment class with the default parameters.
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.ScibrsOffenseSegment.VictimUsed">
+            <summary>
+            Gets/Sets VictimUsed
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.ScibrsOffenseSegment.AdditionalLocationSite">
+            <summary>
+            Gets/Sets AdditionalLocationSite
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.ScibrsOffenseSegment.SpecialCircumstances">
+            <summary>
+            Gets/Sets SpecialCircumstances
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.ScibrsOffenseSegment.OffenseDate">
+            <summary>
+            Gets/Sets OffenseDate
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.ScibrsOffenseSegment.HasSpecialCircumstance(System.String)">
+            <summary>
+            Returns whether or not this IScibrsOffense contains the circumstance code specified.
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.ScibrsPropertySegment">
+            <summary>
+            SCIBRS Property Segment
+            </summary>    
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.ScibrsPropertySegment.#ctor">
+            <summary>
+            Creates a new instance of the ScibrsPropertySegment class with the default parameters.
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.ScibrsPropertySegment.RecoveryOri">
+            <summary>
+            Gets/Sets RecoveryOri
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.ScibrsVictimSegment">
+            <summary>
+            SCIBRS Victim Segment
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.ScibrsVictimSegment.LeokaActivity">
+            <summary>
+            Gets/Sets LeokaActivity
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.ScibrsVictimSegment.LeokaAssignment">
+            <summary>
+            Gets/Sets LeokaAssignment
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Scibrs.Validation.ScibrsValidator.#ctor(PSIMS.ThirdParty.Data.Ibr.Scibrs.Entities.ScibrsData,System.DateTime,System.DateTime,System.String,System.String)">
+            <summary>
+            Creates a new instance of the ScibrsValidator class with the specified parameters.
+            </summary>
+            <param name="data">The SCIBRS data to validate</param>
+            <param name="inactiveDate">The date the agency went inactive with IBR</param>
+            <param name="activityDate">The activity date of the data to validate</param>
+            <param name="dataElementFile">The path/filename of the file containing the SCIBRS data element numbers and names</param>
+            <param name="errorFile">The path/filename of the file containing the SCIBRS error numbers and messages</param>
+        </member>
+    </members>
+</doc>

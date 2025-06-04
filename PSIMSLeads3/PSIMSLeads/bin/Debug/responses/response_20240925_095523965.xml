@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PSIMS>
+  <Control>
+    <WSID></WSID>
+  </Control>
+  <Command>
+    <Verb>NEWSTATEDATA</Verb>
+    <StateData>
+      <Date>2024-09-25T09:55:23.9471598-04:00</Date>
+      <Record>ABC1232010PCJohn Doe123 Main St, Springfield, IL1HGBH41JXMN1091862010FordMustangBlueActiveAcme InsuranceXYZ123456789</Record>
+    </StateData>
+  </Command>
+</PSIMS>

@@ -1,0 +1,1506 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PSIMS.ThirdParty.Data.Ibr</name>
+    </assembly>
+    <members>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Objects.IIbrData">
+            <summary>
+            Represents a class containg data for an entire incident
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IIbrData.Action">
+            <summary>
+            Gets/Sets IBR action code
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IIbrData.Ori">
+            <summary>
+            Gets/Sets agency's ORI number
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IIbrData.IncidentNumber">
+            <summary>
+            Gets/Sets incident number
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IIbrData.AdministrativeSegment">
+            <summary>
+            Gets/Sets administrative segment
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IIbrData.OffenseSegments">
+            <summary>
+            Gets/Sets offense segments
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IIbrData.PropertySegments">
+            <summary>
+            Gets/Sets property segments
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IIbrData.OffenderSegments">
+            <summary>
+            Gets/Sets offender segments
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IIbrData.VictimSegments">
+            <summary>
+            Gets/Sets victim segments
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IIbrData.ArrestSegments">
+            <summary>
+            Gets/Sets arrest segments
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Objects.IIbrSegment">
+            <summary>
+            Represents an IBR segment
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IIbrSegment.SequenceNumber">
+            <summary>
+            Gets/Sets the sequence number associated with this segment
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IIbrSegment.AdditionalData">
+            <summary>
+            Gets/Sets any additional data the consuming IBR application wishes to store with this segment.
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Objects.AdministrativeSegment">
+            <summary>
+            IBR administrative segment
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Objects.AdministrativeSegment.#ctor(System.String)">
+            <summary>
+            Initialize a new instance of AdministrativeSegment
+            </summary>
+            <param name="segmentType">The type of segment</param>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.AdministrativeSegment.IncidentDate">
+            <summary>
+            Incident date (and hour)
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.AdministrativeSegment.ExceptionalClearanceStatus">
+            <summary>
+            Exceptional clearance or status
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.AdministrativeSegment.ExceptionalClearanceDate">
+            <summary>
+            Exceptional clearance date
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Objects.ArrestSegment">
+            <summary>
+            IBR arrestee segment
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Objects.ArrestSegment.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of ArrestSegment
+            </summary>
+            <param name="segmentType"></param>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.ArrestSegment.ArresteeNumber">
+            <summary>
+            Gets/Sets arrestee (sequence) number
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.ArrestSegment.ArrestType">
+            <summary>
+            Gets/Sets type of arrest
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.ArrestSegment.Age">
+            <summary>
+            Gets/Sets age of arrestee
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.ArrestSegment.Race">
+            <summary>
+            Gets/Sets race of arrestee
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.ArrestSegment.Sex">
+            <summary>
+            Gets/Sets sex of arrestee
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.ArrestSegment.Ethnicity">
+            <summary>
+            Gets/Sets ethnicity of arrestee
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.ArrestSegment.ResidentStatus">
+            <summary>
+            Gets/Sets resident status of arrestee
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.ArrestSegment.ArmedWeapon">
+            <summary>
+            Gets/Sets arrestee armed with weapon
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.ArrestSegment.ArrestDate">
+            <summary>
+            Gets/Sets arrest date
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.ArrestSegment.MultipleClearanceArresteeIndicator">
+            <summary>
+            Gets/Sets multiple clearance/arrestee segments indicator
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.ArrestSegment.JuvenileUnder18Disposition">
+            <summary>
+            Gets/Sets juvenile or under 18 disposition
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Objects.IAdministrativeSegment">
+            <summary>
+            Represents an IBR administrative segment
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IAdministrativeSegment.IncidentDate">
+            <summary>
+            Gets/Sets incident date (and hour)
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IAdministrativeSegment.ExceptionalClearanceStatus">
+            <summary>
+            Gets/Sets exceptional clearance or status
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IAdministrativeSegment.ExceptionalClearanceDate">
+            <summary>
+            Gets/Sets exceptional clearance date
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Objects.IArrestSegment">
+            <summary>
+            Represents an IBR arrest segment
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IArrestSegment.ArresteeNumber">
+            <summary>
+            Gets/Sets arrestee (sequence) number
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IArrestSegment.ArrestType">
+            <summary>
+            Gets/Sets type of arrest
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IArrestSegment.Age">
+            <summary>
+            Gets/Sets age of arrestee
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IArrestSegment.Race">
+            <summary>
+            Gets/Sets race of arrestee
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IArrestSegment.Sex">
+            <summary>
+            Gets/Sets sex of arrestee
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IArrestSegment.Ethnicity">
+            <summary>
+            Gets/Sets ethnicity of arrestee
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IArrestSegment.ResidentStatus">
+            <summary>
+            Gets/Sets resident status of arrestee
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IArrestSegment.ArmedWeapon">
+            <summary>
+            Gets/Sets arrestee armed with weapon
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IArrestSegment.ArrestDate">
+            <summary>
+            Gets/Sets arrest date
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IArrestSegment.MultipleClearanceArresteeIndicator">
+            <summary>
+            Gets/Sets multiple clearance/arrestee segments indicator
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IArrestSegment.JuvenileUnder18Disposition">
+            <summary>
+            Gets/Sets juvenile or under 18 disposition
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Objects.IbrData">
+            <summary>
+            Stores all IBR data and segments for one incident
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Objects.IbrData.AddOffense(PSIMS.ThirdParty.Data.Ibr.Objects.IOffenseSegment)">
+            <summary>
+            Adds an offense segment
+            </summary>
+            <param name="offense">The offense segment to add</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Objects.IbrData.AddProperty(PSIMS.ThirdParty.Data.Ibr.Objects.IPropertySegment)">
+            <summary>
+            Adds a property segment
+            </summary>
+            <param name="property">The property segment to add</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Objects.IbrData.AddOffender(PSIMS.ThirdParty.Data.Ibr.Objects.IOffenderSegment)">
+            <summary>
+            Adds an offender segment
+            </summary>
+            <param name="offender">The offender segment to add</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Objects.IbrData.AddVictim(PSIMS.ThirdParty.Data.Ibr.Objects.IVictimSegment)">
+            <summary>
+            Adds a victim segment
+            </summary>
+            <param name="victim">The victim segment to add</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Objects.IbrData.AddArrest(PSIMS.ThirdParty.Data.Ibr.Objects.IArrestSegment)">
+            <summary>
+            Adds an arrest segment
+            </summary>
+            <param name="arrest">The arrest segment to add</param>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IbrData.OffenseSegmentList">
+            <summary>
+            Gets the offense segment list
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IbrData.PropertySegmentList">
+            <summary>
+            Gets the property segment list
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IbrData.OffenderSegmentList">
+            <summary>
+            Gets the offender segment list
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IbrData.VictimSegmentList">
+            <summary>
+            Gets the victim segment list
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IbrData.ArrestSegmentList">
+            <summary>
+            Gets the arrest segment list
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IbrData.Action">
+            <summary>
+            Gets/Sets IBR action code
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IbrData.Ori">
+            <summary>
+            Gets/Sets agency's ORI number
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IbrData.IncidentNumber">
+            <summary>
+            Gets/Sets incident number
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IbrData.AdministrativeSegment">
+            <summary>
+            Gets/Sets administrative segment
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IbrData.OffenseSegments">
+            <summary>
+            Gets the offense segments
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IbrData.PropertySegments">
+            <summary>
+            Gets the property segments
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IbrData.OffenderSegments">
+            <summary>
+            Gewts the offender segments
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IbrData.VictimSegments">
+            <summary>
+            Gets the victim segments
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IbrData.ArrestSegments">
+            <summary>
+            Gets the arrest segments
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Objects.IOffenderSegment">
+            <summary>
+            Represents an IBR offender segment
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IOffenderSegment.OffenderNumber">
+            <summary>
+            Gets/Sets offender (sequence) number
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IOffenderSegment.Age">
+            <summary>
+            Gets/Sets age of offender
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IOffenderSegment.Race">
+            <summary>
+            Gets/Sets race of offender
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IOffenderSegment.Sex">
+            <summary>
+            Gets/Sets sex of offender
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Objects.IOffenseSegment">
+            <summary>
+            Represents an IBR offense segment
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IOffenseSegment.OffenseCodeNumber">
+            <summary>
+            Gets/Sets offense code or number
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IOffenseSegment.LocationSitePremise">
+            <summary>
+            Gets/Sets location, site, or premise code
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IOffenseSegment.WeaponForce">
+            <summary>
+            Gets/Sets type of weapon or force used
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IOffenseSegment.NumberPremisesUnitsEntered">
+            <summary>
+            Gets/Sets number of premises/units entered
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IOffenseSegment.OffenderUsed">
+            <summary>
+            Gets/Sets substance/object used by the offender
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IOffenseSegment.ActivityTypeAssaultCircumstances">
+            <summary>
+            Gets/Sets type criminal activity or assault circumstances
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IOffenseSegment.CrimeAgainst">
+            <summary>
+            Gets/Sets the entity that the offense victimizes
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Objects.IPropertySegment">
+            <summary>
+            Represents an IBR property segment
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IPropertySegment.LossTypePropertyInvolvement">
+            <summary>
+            Gets/Sets type property loss or property involvement
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IPropertySegment.PropertyTypeDescription">
+            <summary>
+            Gets/Sets property type or description
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IPropertySegment.PropertyValue">
+            <summary>
+            Gets/Sets property value
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IPropertySegment.RecoveredDate">
+            <summary>
+            Gets/Sets recovered date
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IPropertySegment.NumberStolenVehicles">
+            <summary>
+            Gets/Sets number of stolen vehicles
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IPropertySegment.DrugType">
+            <summary>
+            Gets/Sets suspected drug type
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IPropertySegment.DrugQuantity">
+            <summary>
+            Gets/Sets estimated drug quantity
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IPropertySegment.DrugMeasurementType">
+            <summary>
+            Gets/Sets type drug measurement
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Objects.IVictimSegment">
+            <summary>
+            Represents an IBR victim segment
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IVictimSegment.VictimNumber">
+            <summary>
+            Gets/Sets victim (sequence) number
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IVictimSegment.VictimOffenseCode">
+            <summary>
+            Gets/Sets victim connected to UCR offense code(s)
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IVictimSegment.VictimType">
+            <summary>
+            Gets/Sets type of victim
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IVictimSegment.Age">
+            <summary>
+            Gets/Sets age of victim
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IVictimSegment.Race">
+            <summary>
+            Gets/Sets race of victim
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IVictimSegment.Sex">
+            <summary>
+            Gets/Sets sex of victim
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IVictimSegment.Ethnicity">
+            <summary>
+            Gets/Sets ethnicity of victim
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IVictimSegment.ResidentStatus">
+            <summary>
+            Gets/Sets resident status of victim
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IVictimSegment.VictimOffenderNumber">
+            <summary>
+            Gets/Sets offender number(s) related to victim
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IVictimSegment.VictimOffenderRelationship">
+            <summary>
+            Gets/Sets relationship(s) of victim to offender(s)
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IVictimSegment.InjuryType">
+            <summary>
+            Gets/Sets type injury
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Objects.IbrSegment">
+            <summary>
+            Represents an IBR segment
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Objects.IbrSegment.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a new instance of Segment
+            </summary>
+            <param name="segmentType">The type of segment</param>
+            <param name="sequenceNumber">The sequence number associated with this segment</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Objects.IbrSegment.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of Segment
+            </summary>
+            <param name="segmentType">The type of segment</param>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IbrSegment.SegmentType">
+            <summary>
+            Gets the type of segment
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IbrSegment.SequenceNumber">
+            <summary>
+            Gets/Sets the sequence number associated with this segment
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.IbrSegment.AdditionalData">
+            <summary>
+            Gets/Sets any additional data the consuming IBR application wishes to store with this segment.
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Objects.CrimeType">
+            <summary>
+            Entity for which a crime victimizes
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Objects.OffenderSegment">
+            <summary>
+            IBR offender segment
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Objects.OffenderSegment.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of OffenderSegment
+            </summary>
+            <param name="segmentType">The type of segment</param>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.OffenderSegment.OffenderNumber">
+            <summary>
+            Gets/Sets offender (sequence) number
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.OffenderSegment.Age">
+            <summary>
+            Gets/Sets age of offender
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.OffenderSegment.Race">
+            <summary>
+            Gets/Sets race of offender
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.OffenderSegment.Sex">
+            <summary>
+            Gets/Sets sex of offender
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Objects.OffenseSegment">
+            <summary>
+            IBR offense segment
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Objects.OffenseSegment.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of OffenseSegment
+            </summary>
+            <param name="segmentType">The type of segment</param>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.OffenseSegment.OffenseCodeOnly">
+            <summary>
+            Used in inherited classes in cases of offense code not being used as the sequence no. 
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.OffenseSegment.OffenseCodeNumber">
+            <summary>
+            Gets/Sets offense code or number
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.OffenseSegment.LocationSitePremise">
+            <summary>
+            Gets/Sets location, site, or premise code
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.OffenseSegment.WeaponForce">
+            <summary>
+            Gets/Sets type of weapon or force used
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.OffenseSegment.NumberPremisesUnitsEntered">
+            <summary>
+            Gets/Sets number of premises/units entered
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.OffenseSegment.OffenderUsed">
+            <summary>
+            Gets/Sets substance/object used by the offender
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.OffenseSegment.ActivityTypeAssaultCircumstances">
+            <summary>
+            Gets/Sets type criminal activity or assault circumstances
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.OffenseSegment.CrimeAgainst">
+            <summary>
+            Gets/Sets the entity that the offense victimizes
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Objects.PropertySegment">
+            <summary>
+            IBR property segment
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.PropertySegment.LossTypePropertyInvolvementOnly">
+            <summary>
+            Used in inherited classes in cases of property involvement being named something else
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.PropertySegment.LossTypePropertyInvolvement">
+            <summary>
+            Gets/Sets type property loss or property involvement
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.PropertySegment.PropertyTypeDescription">
+            <summary>
+            Gets/Sets property type or description
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.PropertySegment.PropertyValue">
+            <summary>
+            Gets/Sets property value
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.PropertySegment.RecoveredDate">
+            <summary>
+            Gets/Sets recovered date
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.PropertySegment.NumberStolenVehicles">
+            <summary>
+            Gets/Sets number of stolen vehicles
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.PropertySegment.DrugType">
+            <summary>
+            Gets/Sets suspected drug type
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.PropertySegment.DrugQuantity">
+            <summary>
+            Gets/Sets estimated drug quantity
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.PropertySegment.DrugMeasurementType">
+            <summary>
+            Gets/Sets type drug measurement
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Objects.VictimSegment">
+            <summary>
+            IBR victim segment
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Objects.VictimSegment.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of VictimSegment
+            </summary>
+            <param name="segmentType">The type of segment</param>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.VictimSegment.VictimNumber">
+            <summary>
+            Gets/Sets victim (sequence) number
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.VictimSegment.VictimOffenseCode">
+            <summary>
+            Gets/Sets victim connected to UCR offense code(s)
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.VictimSegment.VictimType">
+            <summary>
+            Gets/Sets type of victim
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.VictimSegment.Age">
+            <summary>
+            Gets/Sets age of victim
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.VictimSegment.Race">
+            <summary>
+            Gets/Sets race of victim
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.VictimSegment.Sex">
+            <summary>
+            Gets/Sets sex of victim
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.VictimSegment.Ethnicity">
+            <summary>
+            Gets/Sets ethnicity of victim
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.VictimSegment.ResidentStatus">
+            <summary>
+            Gets/Sets resident status of victim
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.VictimSegment.VictimOffenderNumber">
+            <summary>
+            Gets/Sets offender number(s) related to victim
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.VictimSegment.VictimOffenderRelationship">
+            <summary>
+            Gets/Sets relationship(s) of victim to offender(s)
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Objects.VictimSegment.InjuryType">
+            <summary>
+            Gets/Sets type injury
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Validation.ValidateInfo">
+            <summary>
+            Validation return codes
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Validation.IbrDataElement">
+            <summary>
+            IBR data element
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrDataElement.#ctor">
+            <summary>
+            Initializes a new instance of IbrDataElement
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrDataElement.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of IbrDataElement
+            </summary>
+            <param name="dataElementFile">The file containg the data element information</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrDataElement.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Initializes a new instance of IbrDataElement
+            </summary>
+            <param name="number">The data element number</param>
+            <param name="name">The name of the data element</param>
+            <param name="section">The name of the section containing the data element</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrDataElement.LookupElement(System.String,System.String)">
+            <summary>
+            Looks up and imports a specific data element from an xml file
+            </summary>
+            <param name="dataElementFile">The file containg the data element information</param>
+            <param name="dataElementNumber">The data element number to look up</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrDataElement.LookupElement(System.String)">
+            <summary>
+            Looks up and imports a specific data element from an xml file
+            </summary>
+            <param name="dataElementNumber">The data element number to look up</param>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Validation.IbrDataElement.Number">
+            <summary>
+            Gets tata element number (DE)
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Validation.IbrDataElement.Name">
+            <summary>
+            Gets the name of data element
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Validation.IbrDataElement.Section">
+            <summary>
+            Gets the section containing the data element
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Validation.IbrError">
+            <summary>
+            IBR error
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrError.#ctor">
+            <summary>
+            Initializes a new instance of IbrError
+            </summary>    
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrError.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a new instance of IbrError
+            </summary>
+            <param name="dataElementFile">The file containg the data element information</param>
+            <param name="errorFile">The file containing the error information</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrError.#ctor(System.String,System.String,System.Int32)">
+            <summary>
+            Initializes a new instance of IbrError
+            </summary>
+            <param name="dataElementFile">The file containg the data element information</param>
+            <param name="errorFile">The file containing the error information</param>
+            <param name="errorIndex">The index of the item associated with the error if the error was contained in a subset of data.</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrError.#ctor(System.String,System.String,PSIMS.ThirdParty.Data.Ibr.Validation.IbrDataElement,PSIMS.ThirdParty.Data.Ibr.Objects.IIbrSegment,System.Int32)">
+            <summary>
+            Initializes a new instance of IbrError
+            </summary>
+            <param name="number">The error number</param>
+            <param name="message">The error message</param>
+            <param name="dataElement">The data element associated with the error</param>
+            <param name="segment">The IBR segment associated with the error</param>
+            <param name="errorIndex">The index of the item associated with the error if the error was contained in a subset of data.</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrError.#ctor(System.String,System.String,PSIMS.ThirdParty.Data.Ibr.Validation.IbrDataElement,PSIMS.ThirdParty.Data.Ibr.Objects.IIbrSegment)">
+            <summary>
+            Initializes a new instance of IbrError
+            </summary>
+            <param name="number">The error number</param>
+            <param name="message">The error message</param>
+            <param name="dataElement">The data element associated with the error</param>
+            <param name="segment">The IBR segment associated with the error</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrError.#ctor(System.String,System.String,PSIMS.ThirdParty.Data.Ibr.Validation.IbrDataElement)">
+            <summary>
+            Initializes a new instance of IbrError
+            </summary>
+            <param name="number">The error number</param>
+            <param name="message">The error message</param>
+            <param name="dataElement">The data element associated with the error</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrError.AddReference(PSIMS.ThirdParty.Data.Ibr.Validation.IbrDataElement)">
+            <summary>
+            Adds a "see also" reference to another data element
+            </summary>
+            <param name="element">The data element to reference</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrError.LookupError(System.String,System.String,System.String,PSIMS.ThirdParty.Data.Ibr.Objects.IIbrSegment)">
+            <summary>
+            Looks up and imports a specific error from an xml file
+            </summary>
+            <param name="dataElementFile">The file containg the data element information</param>
+            <param name="errorFile">The file containing the error information</param>
+            <param name="errorNumber">The error number of the error to look up</param>
+            <param name="dataElement">The IBR (data) segment associated with the error</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrError.LookupError(System.String,System.String,System.String)">
+            <summary>
+            Looks up and imports a specific error from an xml file
+            </summary>
+            <param name="dataElementFile">The file containg the data element information</param>
+            <param name="errorFile">The file containing the error information</param>
+            <param name="errorNumber">The error number of the error to look up</param>    
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrError.LookupError(System.String)">
+            <summary>
+            Looks up and imports a specific error from an xml file
+            </summary>    
+            <param name="errorNumber">The error number of the error to look up</param>    
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrError.LookupError(System.String,PSIMS.ThirdParty.Data.Ibr.Objects.IIbrSegment)">
+            <summary>
+            Looks up and imports a specific error from an xml file
+            </summary>    
+            <param name="errorNumber">The error number of the error to look up</param>
+            <param name="segment">The IBR (data) segment associated with the error</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrError.AddAdditionalMessage(System.String)">
+            <summary>
+            Adds an additional message to the existing error message
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrError.OverwriteDataElement(PSIMS.ThirdParty.Data.Ibr.Validation.IbrDataElement)">
+            <summary>
+            Overwrites the data element set as a result of LookupError with the given one.
+            </summary>
+            <param name="dataElement">The data element</param>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Validation.IbrError.Number">
+            <summary>
+            Gets the error number
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Validation.IbrError.Message">
+            <summary>
+            Gets the error message
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Validation.IbrError.DataElement">
+            <summary>
+            Gets the data element associated with the error
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Validation.IbrError.SeeAlso">
+            <summary>
+            Gets the "see also" references associated with the error
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Validation.IbrError.Segment">
+            <summary>
+            Gets the segment associated with the error
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Validation.IbrError.SequenceNumber">
+            <summary>
+            Gets the sequence number of the segment associated with the error
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Validation.IbrError.ErrorIndex">
+            <summary>
+            Gets the index of the item associated with the error if the error was contained in a subset of data.
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Validation.IbrErrorEvent">
+            <summary>
+            Delegate used for error or warning events in the validator
+            </summary>
+            <param name="sender">The validator raising the event</param>
+            <param name="args">Arguments containg event data such as actual the error or warning</param>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator">
+            <summary>
+            Validates IBR data
+            </summary>  
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.#ctor(System.DateTime,System.DateTime,System.DateTime,System.String,System.String)">
+            <summary>
+            Initializes a new instance of IbrValidator
+            </summary>
+            <param name="ibrStartDate">The date that IBR was started</param>
+            <param name="agencyStartDate">The date that the agency started IBR</param>
+            <param name="inactiveDate">The date the agency went inactive with IBR</param>
+            <param name="dataElementFile">The path/name of the file containing the data elements</param>
+            <param name="errorFile">The path/name of the file containing the error listing</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.#ctor(System.DateTime,System.DateTime,System.DateTime,System.DateTime,System.String,System.String,PSIMS.ThirdParty.Data.Ibr.Objects.IIbrData)">
+            <summary>
+            Initializes a new instance of IbrValidator
+            </summary>
+            <param name="ibrStartDate">The date that IBR was started</param>
+            <param name="agencyStartDate">The date that the agency started IBR</param>
+            <param name="activityDate">The activity date of the incident to validate</param>
+            <param name="inactiveDate">The date the agency went inactive with IBR</param>
+            <param name="dataElementFile">The path/name of the file containing the data elements</param>
+            <param name="errorFile">The path/name of the file containing the error listing</param>
+            <param name="dataToValidate">The incident to validate</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.GetBaseDate">
+            <summary>
+            Calculates the base date based on the activity date
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.AddError(PSIMS.ThirdParty.Data.Ibr.Validation.IbrError)">
+            <summary>
+            Adds an error
+            </summary>
+            <param name="error">The error to add</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.AddError(System.String,System.String,PSIMS.ThirdParty.Data.Ibr.Objects.IIbrSegment)">
+            <summary>
+            Adds an error
+            </summary>
+            <param name="errorNumber">The error number of the error to add</param>
+            <param name="dataElementNumber">The data element associated with the error</param>
+            <param name="segment">The segment associated with the error</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.AddError(System.String,System.String,PSIMS.ThirdParty.Data.Ibr.Objects.IIbrSegment,System.Int32)">
+            <summary>
+            Adds an error
+            </summary>
+            <param name="errorNumber">The error number of the error to add</param>
+            <param name="dataElementNumber">The data element associated with the error</param>
+            <param name="segment">The segment associated with the error</param>
+            <param name="errorIndex">The index of the item associated with the error if the error was contained in a subset of data.</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.AddError(System.String,PSIMS.ThirdParty.Data.Ibr.Objects.IIbrSegment)">
+            <summary>
+            Adds an error
+            </summary>
+            <param name="errorNumber">The error number of the error to add</param>
+            <param name="segment">The segment associated with the error</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.AddError(System.String,PSIMS.ThirdParty.Data.Ibr.Objects.IIbrSegment,System.Int32)">
+            <summary>
+            Adds an error
+            </summary>
+            <param name="errorNumber">The error number of the error to add</param>
+            <param name="segment">The segment associated with the error</param>
+            <param name="errorIndex">The index of the item associated with the error if the error was contained in a subset of data.</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.AddError(System.String,System.String,System.String,PSIMS.ThirdParty.Data.Ibr.Objects.IIbrSegment)">
+            <summary>
+            Adds an error
+            </summary>
+            <param name="errorNumber">The error number of the error to add</param>
+            <param name="dataElementNumber">The data element associated with the error (ignores the data element found in the file)</param>
+            <param name="message">An additional message to be added to the error message</param>
+            <param name="segment">The segment associated with the error</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.AddError(System.String,System.String,System.String,PSIMS.ThirdParty.Data.Ibr.Objects.IIbrSegment,System.Int32)">
+            <summary>
+            Adds an error
+            </summary>
+            <param name="errorNumber">The error number of the error to add</param>
+            <param name="dataElementNumber">The data element associated with the error (ignores the data element found in the file)</param>
+            <param name="message">An additional message to be added to the error message</param>
+            <param name="segment">The segment associated with the error</param>
+            <param name="errorIndex">The index of the item associated with the error if the error was contained in a subset of data.</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.AddError(System.String,PSIMS.ThirdParty.Data.Ibr.Objects.IIbrSegment,System.String)">
+            <summary>
+            Adds an error
+            </summary>
+            <param name="errorNumber">The error number of the error to add</param>
+            <param name="segment">The segment associated with the error</param>
+            <param name="message">An additional message to be added to the error message</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.AddError(System.String,PSIMS.ThirdParty.Data.Ibr.Objects.IIbrSegment,System.String,System.Int32)">
+            <summary>
+            Adds an error
+            </summary>
+            <param name="errorNumber">The error number of the error to add</param>
+            <param name="segment">The segment associated with the error</param>
+            <param name="message">An additional message to be added to the error message</param>
+            <param name="errorIndex">The index of the item associated with the error if the error was contained in a subset of data.</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.AddError(System.String)">
+            <summary>
+            Adds an error
+            </summary>
+            <param name="errorNumber">The error number of the error to add</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.AddError(System.String,System.Int32)">
+            <summary>
+            Adds an error
+            </summary>
+            <param name="errorNumber">The error number of the error to add</param>
+            <param name="errorIndex">The index of the item associated with the error if the error was contained in a subset of data.</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.AddError(System.String,System.String)">
+            <summary>
+            Adds an error
+            </summary>
+            <param name="errorNumber">The error number of the error to add</param>
+            <param name="message">An additional message to be added to the error message</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.AddError(System.String,System.String,System.Int32)">
+            <summary>
+            Adds an error
+            </summary>
+            <param name="errorNumber">The error number of the error to add</param>
+            <param name="message">An additional message to be added to the error message</param>
+            <param name="errorIndex">The index of the item associated with the error if the error was contained in a subset of data.</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.AddWarning(PSIMS.ThirdParty.Data.Ibr.Validation.IbrError)">
+            <summary>
+            Adds a warning
+            </summary>
+            <param name="warning">The warning to add</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.AddWarning(System.String,System.String,PSIMS.ThirdParty.Data.Ibr.Objects.IIbrSegment)">
+            <summary>
+            Adds a warning
+            </summary>
+            <param name="errorNumber">The error number of the warning to add</param>
+            <param name="dataElementNumber">The data element associated with the warning</param>
+            <param name="segment">The segment associated with the warning</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.AddWarning(System.String,PSIMS.ThirdParty.Data.Ibr.Objects.IIbrSegment)">
+            <summary>
+            Adds a warning
+            </summary>
+            <param name="errorNumber">The error number of the warning to add</param>
+            <param name="segment">The segment associated with the warning</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.AddWarning(System.String,System.String,System.String,PSIMS.ThirdParty.Data.Ibr.Objects.IIbrSegment,System.Int32)">
+            <summary>
+            Adds a warning
+            </summary>
+            <param name="errorNumber">The error number of the warning to add</param>
+            <param name="dataElementNumber">The data element associated with the warning (ignores the data element listed in the file)</param>
+            <param name="message">An additional message to be added to the warning message</param>
+            <param name="segment">The segment associated with the warning</param>
+            <param name="errorIndex">The index of the item associated with the error if the error was contained in a subset of data.</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.AddWarning(System.String,PSIMS.ThirdParty.Data.Ibr.Objects.IIbrSegment,System.String)">
+            <summary>
+            Adds a warning
+            </summary>
+            <param name="errorNumber">The error number of the warning to add</param>
+            <param name="segment">The segment associated with the warning</param>
+            <param name="message">An additional message to be added to the warning message</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.AddWarning(System.String)">
+            <summary>
+            Adds a warning
+            </summary>
+            <param name="errorNumber">The error number of the warning to add</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.AddWarning(System.String,System.Int32)">
+            <summary>
+            Adds a warning
+            </summary>
+            <param name="errorNumber">The error number of the warning to add</param>
+            <param name="errorIndex">The index of the item associated with the error if the error was contained in a subset of data.</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.AddWarning(System.String,System.String)">
+            <summary>
+            Adds a warning
+            </summary>
+            <param name="errorNumber">The error number of the warning to add</param>
+            <param name="message">An additional message to be added to the warning message</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.ClearErrorsAndWarnings">
+            <summary>
+            Clears all errors and warnings
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.OnError(PSIMS.ThirdParty.Data.Ibr.Validation.IbrError)">
+            <summary>
+            Raises the Error event
+            </summary>
+            <param name="error">The error</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.OnWarning(PSIMS.ThirdParty.Data.Ibr.Validation.IbrError)">
+            <summary>
+            Raises the Warning event
+            </summary>
+            <param name="warning">The warning</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.Validate">
+            <summary>
+            Validates the IBR data
+            </summary>
+            <returns>A ValidateInfo enum specifiying the results</returns>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.AgencyStartDate">
+            <summary>
+            Gets/Sets the date the agency started IBR
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.IbrStartDate">
+            <summary>
+            Gets/Sets the date that IBR started
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.InactiveDate">
+            <summary>
+            Gets/Sets the date that the agency went inactive with IBR
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.DataElementFile">
+            <summary>
+            Gets/Sets the data element file path/name
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.ErrorFile">
+            <summary>
+            Gets/Sets the error file path/name
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.Status">
+            <summary>
+            Gets the result of the last Validate operation
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.BaseDate">
+            <summary>
+            Gets the base date for submitting new incidents
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.Errors">
+            <summary>
+            Gets the errors returned from the previous Validate operation
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.Warnings">
+            <summary>
+            Gets the warnings returned from the previous validate operation
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.DataToValidate">
+            <summary>
+            Gets/Sets the data to validate
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.TodaysDate">
+            <summary>
+            Gets/Sets today's date
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.ActivityDate">
+            <summary>
+            Gets/Sets the activity date for this incident
+            </summary>
+        </member>
+        <member name="E:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.Error">
+            <summary>
+            Event raised when an error is found.  This is raised for each error found.
+            </summary>
+        </member>
+        <member name="E:PSIMS.ThirdParty.Data.Ibr.Validation.IbrValidator.Warning">
+            <summary>
+            Event raised when a warning is found.  This is raised for each warning found.
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Validation.IbrErrorEventArgs">
+            <summary>
+            Event args for the OnError and OnWarning events
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Validation.IbrErrorEventArgs.#ctor(PSIMS.ThirdParty.Data.Ibr.Objects.IIbrData,PSIMS.ThirdParty.Data.Ibr.Validation.IbrError)">
+            <summary>
+            Initializes a new instance of IbrErrorEventArgs thus setting the error
+            </summary>
+            <param name="incident">The incident containing the error</param>
+            <param name="error">The IBR error associated with the event</param>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Validation.IbrErrorEventArgs.Incident">
+            <summary>
+            Gets the incident containing the error
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Validation.IbrErrorEventArgs.Error">
+            <summary>
+            Gets the error that was found
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Serialization.SerializeEventArgs">
+            <summary>
+            Event args for serialization events
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Serialization.SerializeEventArgs.#ctor(PSIMS.ThirdParty.Data.Ibr.Objects.IIbrData)">
+            <summary>
+            Initializes a new instance of SerializeEventArgs
+            </summary>
+            <param name="incident">The incident for which the task is being performed</param>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Serialization.SerializeEventArgs.Incident">
+            <summary>
+            Gets the incident for which the task is being performed
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Serialization.WriterNullException">
+            <summary>
+            Exception thrown when the stream writer used to serialize an IBR file is null
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Serialization.WriterNullException.#ctor">
+            <summary>
+            Initializes a new instance of WriterNullException
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Serialization.WriterNullException.#ctor(System.Exception)">
+            <summary>
+            Initializes a new instance of WriterNullException
+            </summary>
+            <param name="innerException">The exception which caused this exception to be thrown</param>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Serialization.SerializeErrorException">
+            <summary>
+            Exception thrown when validation errors are found during serialization
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Serialization.SerializeErrorException.#ctor">
+            <summary>
+            Initializes a new instance of SerializeErrorException
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Serialization.SerializeErrorException.#ctor(System.Exception)">
+            <summary>
+            Initializes a new instance of SerializeErrorException
+            </summary>
+            <param name="innerException">The exception which caused this exception to be thrown</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Serialization.SerializeErrorException.#ctor(PSIMS.ThirdParty.Data.Ibr.Serialization.SerializeError[],System.Exception)">
+            <summary>
+            Initializes a new instance of SerializeErrorException
+            </summary>
+            <param name="errors">The errors found during serialization</param>
+            <param name="innerException">The exception which caused this exception to be thrown</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Serialization.SerializeErrorException.#ctor(PSIMS.ThirdParty.Data.Ibr.Serialization.SerializeError[])">
+            <summary>
+            Initializes a new instance of SerializeErrorException
+            </summary>
+            <param name="errors">The errors found during serialization</param>    
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Serialization.SerializeErrorException.SerializeErrors">
+            <summary>
+            Gets the errors found during serialization
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Serialization.SerializeError">
+            <summary>
+            Used to store errors associated with an incident found during serialization
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Serialization.SerializeError.#ctor(PSIMS.ThirdParty.Data.Ibr.Objects.IIbrData,PSIMS.ThirdParty.Data.Ibr.Validation.IbrError[])">
+            <summary>
+            Initializes a new instance of SerializeError
+            </summary>
+            <param name="incident">The incident containing the errors</param>
+            <param name="errors">The errors</param>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Serialization.SerializeError.Incident">
+            <summary>
+            Gets the incident containing errors
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Serialization.SerializeError.Errors">
+            <summary>
+            Gets the errors associated with the incident
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Serialization.IbrSerializer">
+            <summary>
+            Serializes IBR data
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Serialization.IbrSerializer.#ctor(System.DateTime,System.DateTime,System.DateTime,System.DateTime,System.String,System.String,System.String)">
+            <summary>
+            Initializes a new instance of IbrSerializer
+            </summary>
+            <param name="ibrStartDate">The date IBR started</param>
+            <param name="agencyStartDate">The agency's IBR start date</param>
+            <param name="activityDate">The activity date being serialized</param>
+            <param name="inactiveDate">The date the agency went inactive with IBR</param>
+            <param name="dataElementFile">The path/name of the xml file containing the data elements</param>
+            <param name="errorFile">The path/name of the xml file containing the error listing</param>
+            <param name="serializeFile">The path/name of the file to which data will be serialized</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Serialization.IbrSerializer.AddData(PSIMS.ThirdParty.Data.Ibr.Objects.IIbrData)">
+            <summary>
+            Adds an incident to be serialized
+            </summary>
+            <param name="incident">The incident to add</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Serialization.IbrSerializer.Serialize">
+            <summary>
+            Serializes the incident data to a file
+            </summary>
+            <exception cref="T:PSIMS.ThirdParty.Data.Ibr.Serialization.SerializeErrorException">Exception thrown when validation errors are found prior to serialization</exception>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Serialization.IbrSerializer.Validate(PSIMS.ThirdParty.Data.Ibr.Objects.IIbrData)">
+            <summary>
+            Validate the incident.  Called for each incident to be added to the file.
+            </summary>
+            <param name="incident">The incident to validate</param>
+            <returns>The results of the operation (errors, warnings, etc.)</returns>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Serialization.IbrSerializer.OnValidateIncident(PSIMS.ThirdParty.Data.Ibr.Objects.IIbrData)">
+            <summary>
+            Raises the ValidateIncident event
+            </summary>
+            <param name="incident">The incident being validated</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Serialization.IbrSerializer.OnSerializeIncident(PSIMS.ThirdParty.Data.Ibr.Objects.IIbrData)">
+            <summary>
+            Raises the SerializeIncident event
+            </summary>
+            <param name="incident">The incident being serialized</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Serialization.IbrSerializer.StartNewFile">
+            <summary>
+            Starts a new file
+            </summary>
+            <returns>The writer used to create the file</returns>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Serialization.IbrSerializer.AddToFile(System.IO.StreamWriter,PSIMS.ThirdParty.Data.Ibr.Objects.IIbrData)">
+            <summary>
+            Adds the given incident to the file
+            </summary>
+            <param name="writer">The stream writer to use</param>
+            <param name="incident">The incident to add</param>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Serialization.IbrSerializer.EndFile(System.IO.StreamWriter)">
+            <summary>
+            Ends the file
+            </summary>
+            <param name="writer">The writer to use to end the file</param>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Serialization.IbrSerializer.DataToSerialize">
+            <summary>
+            Gets the incident data to serialize (or that was serialized)
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Serialization.IbrSerializer.IbrStartDate">
+            <summary>
+            Gets the date that IBR was started
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Serialization.IbrSerializer.AgencyStartDate">
+            <summary>
+            Gets the date that the agency started IBR
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Serialization.IbrSerializer.ActivityDate">
+            <summary>
+            Get the activity date used for this "batch"
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Serialization.IbrSerializer.InactiveDate">
+            <summary>
+            Gets the date that the agency went "inactive" with IBR
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Serialization.IbrSerializer.DataElementFile">
+            <summary>
+            Get the data element file path/name
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Serialization.IbrSerializer.ErrorFile">
+            <summary>
+            Get the error file path/name
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Serialization.IbrSerializer.SerializeFile">
+            <summary>
+            Get the file name/path for which data will be written
+            </summary>
+        </member>
+        <member name="P:PSIMS.ThirdParty.Data.Ibr.Serialization.IbrSerializer.Validator">
+            <summary>
+            Gets/Sets the validator to use during the serialize process
+            </summary>
+        </member>
+        <member name="E:PSIMS.ThirdParty.Data.Ibr.Serialization.IbrSerializer.ValidateIncident">
+            <summary>
+            Event raised when an incident is being validated (all incidents are validated prior to serialization)
+            </summary>
+        </member>
+        <member name="E:PSIMS.ThirdParty.Data.Ibr.Serialization.IbrSerializer.SerializeIncident">
+            <summary>
+            Event raised when an incident is being serialized
+            </summary>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Serialization.SerializeEvent">
+            <summary>
+            Delegate used for serialization events in the serializer
+            </summary>
+            <param name="sender">The serializer raising the event</param>
+            <param name="args">Arguments containing event data such as the incident being serialized</param>
+        </member>
+        <member name="T:PSIMS.ThirdParty.Data.Ibr.Utils">
+            <summary>
+            Class with useful methods for processing IBR
+            </summary>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Utils.IsNumeric(System.String)">
+            <summary>
+            Returns true if the string passed in is numeric
+            </summary>
+            <param name="number">The string to test for numeric</param>
+            <returns>true if numeric; otherwise false</returns>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Utils.ConvertToDate(System.String)">
+            <summary>
+            Converts a string in the format CCYYMMDD to a date time
+            </summary>
+            <param name="dateToConvert">The date to convert</param>
+            <returns>The date if successful; otherwise DateTime.MinValue</returns>
+        </member>
+        <member name="M:PSIMS.ThirdParty.Data.Ibr.Utils.Space(System.Int32)">
+            <summary>
+            Returns a string that contains the number of specified spaces
+            </summary>
+            <param name="numberSpaces">The number of spaces to return</param>
+            <returns>A string filled with the specified number of spaces</returns>
+        </member>
+    </members>
+</doc>

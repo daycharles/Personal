@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CU-TECH\\Development\\Server Products\\CuTech PSIMS\\PSIMSLeads3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{96C36224-E2E1-4AE4-9870-9A5F8071CBA0}|PSIMSLeads\\PSIMSLeads.csproj|d:\\cu-tech\\development\\server products\\cutech psims\\psimsleads3\\psimsleads\\psimsleadsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C36224-E2E1-4AE4-9870-9A5F8071CBA0}|PSIMSLeads\\PSIMSLeads.csproj|solutionrelative:psimsleads\\psimsleadsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C36224-E2E1-4AE4-9870-9A5F8071CBA0}|PSIMSLeads\\PSIMSLeads.csproj|D:\\CU-TECH\\Development\\Server Products\\CuTech PSIMS\\PSIMSLeads3\\psimsleads\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C36224-E2E1-4AE4-9870-9A5F8071CBA0}|PSIMSLeads\\PSIMSLeads.csproj|solutionrelative:psimsleads\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C36224-E2E1-4AE4-9870-9A5F8071CBA0}|PSIMSLeads\\PSIMSLeads.csproj|D:\\CU-TECH\\Development\\Server Products\\CuTech PSIMS\\PSIMSLeads3\\psimsleads\\psimscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C36224-E2E1-4AE4-9870-9A5F8071CBA0}|PSIMSLeads\\PSIMSLeads.csproj|solutionrelative:psimsleads\\psimscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C36224-E2E1-4AE4-9870-9A5F8071CBA0}|PSIMSLeads\\PSIMSLeads.csproj|D:\\CU-TECH\\Development\\Server Products\\CuTech PSIMS\\PSIMSLeads3\\psimsleads\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C36224-E2E1-4AE4-9870-9A5F8071CBA0}|PSIMSLeads\\PSIMSLeads.csproj|solutionrelative:psimsleads\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 10,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\CU-TECH\\Development\\Server Products\\CuTech PSIMS\\PSIMSLeads3\\PSIMSLeads\\Form1.cs",
+              "RelativeDocumentMoniker": "PSIMSLeads\\Form1.cs",
+              "ToolTip": "D:\\CU-TECH\\Development\\Server Products\\CuTech PSIMS\\PSIMSLeads3\\PSIMSLeads\\Form1.cs",
+              "RelativeToolTip": "PSIMSLeads\\Form1.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwDgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T19:46:07.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PSIMSCore.cs",
+              "DocumentMoniker": "D:\\CU-TECH\\Development\\Server Products\\CuTech PSIMS\\PSIMSLeads3\\PSIMSLeads\\PSIMSCore.cs",
+              "RelativeDocumentMoniker": "PSIMSLeads\\PSIMSCore.cs",
+              "ToolTip": "D:\\CU-TECH\\Development\\Server Products\\CuTech PSIMS\\PSIMSLeads3\\PSIMSLeads\\PSIMSCore.cs",
+              "RelativeToolTip": "PSIMSLeads\\PSIMSCore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T19:34:44.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CU-TECH\\Development\\Server Products\\CuTech PSIMS\\PSIMSLeads3\\PSIMSLeads\\Program.cs",
+              "RelativeDocumentMoniker": "PSIMSLeads\\Program.cs",
+              "ToolTip": "D:\\CU-TECH\\Development\\Server Products\\CuTech PSIMS\\PSIMSLeads3\\PSIMSLeads\\Program.cs",
+              "RelativeToolTip": "PSIMSLeads\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T18:47:57.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PSIMSLeadsQuery.cs",
+              "DocumentMoniker": "D:\\CU-TECH\\Development\\Server Products\\CuTech PSIMS\\PSIMSLeads3\\PSIMSLeads\\PSIMSLeadsQuery.cs",
+              "RelativeDocumentMoniker": "PSIMSLeads\\PSIMSLeadsQuery.cs",
+              "ToolTip": "D:\\CU-TECH\\Development\\Server Products\\CuTech PSIMS\\PSIMSLeads3\\PSIMSLeads\\PSIMSLeadsQuery.cs",
+              "RelativeToolTip": "PSIMSLeads\\PSIMSLeadsQuery.cs",
+              "ViewState": "AgIAAAoBAAAAAAAAAAAuwOEAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T15:36:59.883Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 390,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

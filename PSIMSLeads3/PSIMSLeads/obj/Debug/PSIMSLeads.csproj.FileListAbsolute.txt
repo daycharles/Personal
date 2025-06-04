@@ -1,0 +1,387 @@
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\obj\Debug\PSIMSLeads.csproj.AssemblyReference.cache
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\obj\Debug\PSIMSLeads.Form1.resources
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\obj\Debug\PSIMSLeads.Properties.Resources.resources
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\obj\Debug\PSIMSLeads.csproj.GenerateResource.cache
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\obj\Debug\PSIMSLeads.csproj.CoreCompileInputs.cache
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\bin\Debug\PSIMSLeads.exe.config
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\bin\Debug\PSIMSLeads.exe
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\bin\Debug\PSIMSLeads.pdb
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\bin\Debug\EntityFramework.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\bin\Debug\EntityFramework.SqlServer.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\bin\Debug\PSIMS.Data.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\bin\Debug\Newtonsoft.Json.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.Scibrs.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.TnTibrs.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\bin\Debug\EntityFramework.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\bin\Debug\EntityFramework.SqlServer.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\bin\Debug\Newtonsoft.Json.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.Scibrs.pdb
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.Scibrs.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.TnTibrs.pdb
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.TnTibrs.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.pdb
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\obj\Debug\PSIMSLeads.csproj.Up2Date
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\obj\Debug\PSIMSLeads.exe
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\obj\Debug\PSIMSLeads.pdb
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\bin\Debug\System.Buffers.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\bin\Debug\System.Memory.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\bin\Debug\System.Numerics.Vectors.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\bin\Debug\System.ValueTuple.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\bin\Debug\Microsoft.Extensions.Configuration.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\bin\Debug\System.Buffers.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\bin\Debug\System.Memory.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\bin\Debug\System.Numerics.Vectors.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads\PSIMSLeads\bin\Debug\System.ValueTuple.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\bin\Debug\PSIMSLeads.exe.config
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\bin\Debug\PSIMSLeads.exe
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\bin\Debug\PSIMSLeads.pdb
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\bin\Debug\EntityFramework.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\bin\Debug\EntityFramework.SqlServer.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\bin\Debug\PSIMS.Data.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\bin\Debug\System.Buffers.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\bin\Debug\System.Memory.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\bin\Debug\System.Numerics.Vectors.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\bin\Debug\System.ValueTuple.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\bin\Debug\Newtonsoft.Json.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.Scibrs.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.TnTibrs.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\bin\Debug\EntityFramework.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\bin\Debug\EntityFramework.SqlServer.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\bin\Debug\Microsoft.Extensions.Configuration.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\bin\Debug\System.Buffers.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\bin\Debug\System.Memory.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\bin\Debug\System.Numerics.Vectors.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\bin\Debug\System.ValueTuple.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\bin\Debug\Newtonsoft.Json.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.Scibrs.pdb
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.Scibrs.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.TnTibrs.pdb
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.TnTibrs.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.pdb
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\obj\Debug\PSIMSLeads.csproj.AssemblyReference.cache
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\obj\Debug\PSIMSLeads.Form1.resources
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\obj\Debug\PSIMSLeads.Properties.Resources.resources
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\obj\Debug\PSIMSLeads.csproj.GenerateResource.cache
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\obj\Debug\PSIMSLeads.csproj.CoreCompileInputs.cache
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\obj\Debug\PSIMSLeads.csproj.Up2Date
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\obj\Debug\PSIMSLeads.exe
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3\PSIMSLeads\obj\Debug\PSIMSLeads.pdb
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\bin\Debug\PSIMSLeads.exe.config
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\bin\Debug\PSIMSLeads.exe
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\bin\Debug\PSIMSLeads.pdb
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\bin\Debug\EntityFramework.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\bin\Debug\EntityFramework.SqlServer.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\bin\Debug\PSIMS.Data.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\bin\Debug\System.Buffers.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\bin\Debug\System.Memory.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\bin\Debug\System.Numerics.Vectors.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\bin\Debug\System.ValueTuple.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\bin\Debug\Newtonsoft.Json.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.Scibrs.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.TnTibrs.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\bin\Debug\EntityFramework.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\bin\Debug\EntityFramework.SqlServer.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\bin\Debug\Microsoft.Extensions.Configuration.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\bin\Debug\System.Buffers.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\bin\Debug\System.Memory.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\bin\Debug\System.Numerics.Vectors.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\bin\Debug\System.ValueTuple.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\bin\Debug\Newtonsoft.Json.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.Scibrs.pdb
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.Scibrs.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.TnTibrs.pdb
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.TnTibrs.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.pdb
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\obj\Debug\PSIMSLeads.csproj.AssemblyReference.cache
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\obj\Debug\PSIMSLeads.Form1.resources
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\obj\Debug\PSIMSLeads.Properties.Resources.resources
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\obj\Debug\PSIMSLeads.csproj.GenerateResource.cache
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\obj\Debug\PSIMSLeads.csproj.CoreCompileInputs.cache
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\obj\Debug\PSIMSLeads.csproj.Up2Date
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\obj\Debug\PSIMSLeads.exe
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3-Good\PSIMSLeads\obj\Debug\PSIMSLeads.pdb
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\xunit.runner.reporters.net452.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\xunit.runner.utility.net452.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\xunit.abstractions.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\PSIMSLeads.exe.config
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\PSIMSLeads.exe
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\PSIMSLeads.pdb
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\Castle.Core.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\EntityFramework.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\EntityFramework.SqlServer.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\Moq.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\PSIMS.Data.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\System.Buffers.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\System.Memory.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\System.Numerics.Vectors.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\System.ValueTuple.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\xunit.assert.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\xunit.core.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\xunit.execution.desktop.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\Newtonsoft.Json.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.Scibrs.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.TnTibrs.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\Castle.Core.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\EntityFramework.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\EntityFramework.SqlServer.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\Microsoft.Extensions.Configuration.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\Moq.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\System.Buffers.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\System.Memory.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\System.Numerics.Vectors.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\System.ValueTuple.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\xunit.assert.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\xunit.core.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\xunit.execution.desktop.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\Newtonsoft.Json.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.Scibrs.pdb
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.Scibrs.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.TnTibrs.pdb
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.TnTibrs.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.pdb
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\obj\Debug\PSIMSLeads.csproj.AssemblyReference.cache
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\obj\Debug\PSIMSLeads.Form1.resources
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\obj\Debug\PSIMSLeads.Properties.Resources.resources
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\obj\Debug\PSIMSLeads.csproj.GenerateResource.cache
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\obj\Debug\PSIMSLeads.csproj.CoreCompileInputs.cache
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\obj\Debug\PSIMSLeads.csproj.Up2Date
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\obj\Debug\PSIMSLeads.exe
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\obj\Debug\PSIMSLeads.pdb
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Newest\PSIMSLeads\obj\Debug\PSIMSLeads.Form2.resources
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\xunit.runner.reporters.net452.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\xunit.runner.utility.net452.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\xunit.abstractions.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\PSIMSLeads.exe.config
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\PSIMSLeads.exe
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\PSIMSLeads.pdb
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\Castle.Core.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\EntityFramework.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\EntityFramework.SqlServer.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\Moq.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\PSIMS.Data.20240701.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\System.Buffers.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\System.Memory.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\System.Numerics.Vectors.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\System.ValueTuple.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\xunit.assert.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\xunit.core.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\xunit.execution.desktop.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\Newtonsoft.Json.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.Scibrs.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.TnTibrs.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.dll
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\Castle.Core.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\EntityFramework.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\EntityFramework.SqlServer.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\Microsoft.Extensions.Configuration.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\Moq.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\System.Buffers.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\System.Memory.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\System.Numerics.Vectors.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\System.ValueTuple.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\xunit.assert.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\xunit.core.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\xunit.execution.desktop.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\Newtonsoft.Json.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.Scibrs.pdb
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.Scibrs.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.TnTibrs.pdb
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.TnTibrs.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.pdb
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.xml
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\obj\Debug\PSIMSLeads.csproj.AssemblyReference.cache
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\obj\Debug\PSIMSLeads.Form1.resources
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\obj\Debug\PSIMSLeads.Properties.Resources.resources
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\obj\Debug\PSIMSLeads.csproj.GenerateResource.cache
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\obj\Debug\PSIMSLeads.csproj.CoreCompileInputs.cache
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\obj\Debug\PSIMSLeads.csproj.Up2Date
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\obj\Debug\PSIMSLeads.exe
+D:\CU-TECH\Development\Client Products\Working Folder\PSIMSLeads3-Copy\PSIMSLeads\obj\Debug\PSIMSLeads.pdb
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\xunit.runner.reporters.net452.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\xunit.runner.utility.net452.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\xunit.abstractions.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\PSIMSLeads.exe.config
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\PSIMSLeads.exe
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\PSIMSLeads.pdb
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\Castle.Core.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\EntityFramework.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\EntityFramework.SqlServer.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\Moq.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\Newtonsoft.Json.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\PSIMS.Data.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\System.Buffers.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\System.IO.Pipelines.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\System.Memory.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\System.Numerics.Vectors.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\System.Text.Encodings.Web.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\System.Text.Json.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\System.ValueTuple.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\xunit.assert.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\xunit.core.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\xunit.execution.desktop.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.Scibrs.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.TnTibrs.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\Castle.Core.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\EntityFramework.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\EntityFramework.SqlServer.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\Microsoft.Extensions.Configuration.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\Moq.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\Newtonsoft.Json.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\System.Buffers.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\System.IO.Pipelines.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\System.Memory.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\System.Numerics.Vectors.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\System.Text.Encodings.Web.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\System.Text.Json.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\System.ValueTuple.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\xunit.assert.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\xunit.core.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\xunit.execution.desktop.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.Scibrs.pdb
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.Scibrs.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.TnTibrs.pdb
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.TnTibrs.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.pdb
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\obj\Debug\PSIMSLeads.csproj.AssemblyReference.cache
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\obj\Debug\PSIMSLeads.Form1.resources
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\obj\Debug\PSIMSLeads.Properties.Resources.resources
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\obj\Debug\PSIMSLeads.csproj.GenerateResource.cache
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\obj\Debug\PSIMSLeads.csproj.CoreCompileInputs.cache
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\obj\Debug\PSIMSLeads.csproj.Up2Date
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\obj\Debug\PSIMSLeads.exe
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3 - Copy\PSIMSLeads\obj\Debug\PSIMSLeads.pdb
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\bin\Debug\PSIMSLeads.exe.config
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\bin\Debug\PSIMSLeads.exe
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\bin\Debug\PSIMSLeads.pdb
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\bin\Debug\Castle.Core.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\bin\Debug\EntityFramework.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\bin\Debug\EntityFramework.SqlServer.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\bin\Debug\Newtonsoft.Json.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\bin\Debug\PSIMS.Data.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\bin\Debug\System.Buffers.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\bin\Debug\System.Threading.Channels.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\bin\Debug\System.ValueTuple.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.Scibrs.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.TnTibrs.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.dll
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\bin\Debug\Castle.Core.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\bin\Debug\EntityFramework.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\bin\Debug\EntityFramework.SqlServer.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\bin\Debug\Newtonsoft.Json.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\bin\Debug\PSIMS.Data.dll.config
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\bin\Debug\System.Buffers.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\bin\Debug\System.Threading.Channels.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.Scibrs.pdb
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.Scibrs.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.TnTibrs.pdb
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.TnTibrs.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.pdb
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\bin\Debug\PSIMS.ThirdParty.Data.Ibr.xml
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\obj\Debug\PSIMSLeads.csproj.AssemblyReference.cache
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\obj\Debug\PSIMSLeads.Form1.resources
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\obj\Debug\PSIMSLeads.Properties.Resources.resources
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\obj\Debug\PSIMSLeads.csproj.GenerateResource.cache
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\obj\Debug\PSIMSLeads.csproj.CoreCompileInputs.cache
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\obj\Debug\PSIMSLeads.csproj.Up2Date
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\obj\Debug\PSIMSLeads.exe
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\obj\Debug\PSIMSLeads.pdb
+D:\CU-TECH\Development\Server Products\CuTech PSIMS\PSIMSLeads3\PSIMSLeads\obj\Debug\PSIMSLeads.exe.config
