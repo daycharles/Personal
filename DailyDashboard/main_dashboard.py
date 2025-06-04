@@ -567,7 +567,7 @@ class DashboardWindow(QMainWindow):
             self.show()
             self.raise_()
             self.activateWindow()
-            self.overlay.true()
+            self.overlay.show()
             self._is_hidden_to_tray = False
 
 
