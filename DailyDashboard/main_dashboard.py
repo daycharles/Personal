@@ -567,9 +567,6 @@ class DashboardWindow(QMainWindow):
             self.show()
             self.raise_()
             self.activateWindow()
-            # `OverlayTimer` does not implement a `true()` method.
-            # The intent is to re-show the overlay when restoring the
-            # dashboard from the system tray.
             self.overlay.show()
             self._is_hidden_to_tray = False
 
