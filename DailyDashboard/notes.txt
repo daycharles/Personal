@@ -1,0 +1,4 @@
+The visual studio issue was caused by Resharper being uninstalled when I was cleaning out the AppData folder.
+
+PSIMS Anywhere (Affidavit Issue):
+Refactoring affidavit code

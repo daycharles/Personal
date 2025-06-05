@@ -3,7 +3,7 @@
 import sys
 import os
 import json
-from PyQt5.QtCore import Qt
+from PyQt5.QtCore import Qt, QEvent
 from PyQt5.QtWidgets import (
     QApplication,
     QMainWindow,
@@ -28,7 +28,7 @@ from PyQt5.QtWidgets import (
 )
 from PyQt5.QtGui import QIcon, QFont
 
-# Import the PomodoroTimer widget from pomodoro_widget.py
+# Import the PomodoroTimer widget from pomodoro_widget.py (must be in same folder)
 from pomodoro_widget import PomodoroTimer
 
 # Paths for persistence files
@@ -394,11 +394,12 @@ class OverlayTimer(QWidget):
     always-on-top, positioned far right just above the taskbar.
     """
 
-    def __init__(self, pomodoro_widget, parent=None):
-        super().__init__(parent)
+    def __init__(self, pomodoro_widget):
+        # No parent → makes this a true top-level window
+        super().__init__(None)
         self.pomodoro = pomodoro_widget
 
-        # Frameless & always-on-top
+        # Frameless & always-on-top & tool-type (no taskbar icon)
         self.setWindowFlags(
             Qt.FramelessWindowHint
             | Qt.WindowStaysOnTopHint
@@ -482,7 +483,7 @@ class DashboardWindow(QMainWindow):
     def __init__(self):
         super().__init__()
 
-        #  ── ADD QT.TOOL FLAG TO REMOVE TASKBAR ICON ──
+        # ── ADD Qt.Tool FLAG TO REMOVE TASKBAR ICON ──
         # By OR’ing Qt.Tool into the window flags, this window will no longer
         # show up in the Windows taskbar—only the tray icon remains.
         self.setWindowFlags(self.windowFlags() | Qt.Tool)
@@ -514,7 +515,7 @@ class DashboardWindow(QMainWindow):
         self.eisenhower_tab = EisenhowerTab(self)
         tabs.addTab(self.eisenhower_tab, "Eisenhower")
 
-        # 2) Create the OverlayTimer and pass it the PomodoroTimer instance
+        # 2) Create the OverlayTimer (no parent) so it stays visible even if the dashboard is minimized
         self.overlay = OverlayTimer(self.pomodoro_tab)
 
         # 3) Create the system tray icon + menu
@@ -523,7 +524,7 @@ class DashboardWindow(QMainWindow):
 
     def init_tray_icon(self):
         """Set up QSystemTrayIcon with a context menu (Show Dashboard / Quit)."""
-        icon_path = os.path.join(BASE_DIR, "icon.png")
+        icon_path = os.path.join(BASE_DIR, "icon.ico")
         if os.path.exists(icon_path):
             tray_ic = QIcon(icon_path)
         else:
@@ -552,7 +553,7 @@ class DashboardWindow(QMainWindow):
         """
         event.ignore()
         self.hide()
-        self.overlay.hide()
+        # Don’t hide the overlay here, so it remains visible even when dashboard is closed
         self._is_hidden_to_tray = True
         self.tray.showMessage(
             "Dashboard Minimized",
@@ -561,13 +562,28 @@ class DashboardWindow(QMainWindow):
             2000,
         )
 
+    def changeEvent(self, event):
+        """
+        Catch minimize events so that the dashboard gets hidden,
+        but the overlay remains visible.
+        """
+        if event.type() == QEvent.WindowStateChange:
+            # If dashboard is being minimized, just hide it
+            if self.windowState() & Qt.WindowMinimized:
+                # Hide the main window
+                self.hide()
+                # Ensure overlay remains visible (it’s top-level)
+                self.overlay.show()
+                self._is_hidden_to_tray = True
+        super().changeEvent(event)
+
     def show_dashboard(self):
         """Restore the main window (if it was hidden) and re-show the overlay."""
         if self._is_hidden_to_tray:
             self.show()
             self.raise_()
             self.activateWindow()
-            self.overlay.show()
+            # Overlay is already visible, no need to re-show it
             self._is_hidden_to_tray = False
 
 

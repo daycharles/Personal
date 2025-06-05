@@ -1,1 +1,14 @@
-[]
+[
+    {
+        "text": "Affidavit Issue Grant Co IN",
+        "done": false
+    },
+    {
+        "text": "Investigate Visual Studio Error",
+        "done": true
+    },
+    {
+        "text": "Fix Visual Studio Issue",
+        "done": true
+    }
+]

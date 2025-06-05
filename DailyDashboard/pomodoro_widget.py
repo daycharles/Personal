@@ -215,7 +215,7 @@ class PomodoroTimer(QWidget):
             self.alert_cycle_complete()
 
     def alert_cycle_complete(self):
-        """Popup when a session ends and switch modes."""
+        """Popup when a session ends and switch modes. Automatically start next."""
         # Increment cycle if it was a work period
         if self.current_mode == "Work":
             self.cycles_completed += 1
@@ -230,10 +230,11 @@ class PomodoroTimer(QWidget):
                 self.current_mode = "Short Break"
                 self.remaining_seconds = self.settings["short_break_minutes"] * 60
         else:
+            # We just finished a break, so go back to Work
             self.current_mode = "Work"
             self.remaining_seconds = self.settings["work_minutes"] * 60
 
-        # Update UI
+        # Update UI labels and button states
         self.mode_label.setText(self.current_mode)
         self.time_label.setText(self.format_time(self.remaining_seconds))
         self.start_button.setEnabled(True)
@@ -241,12 +242,20 @@ class PomodoroTimer(QWidget):
         self.reset_button.setEnabled(False)
         self.settings_button.setEnabled(True)
 
-        # Simple popup alert
-        QMessageBox.information(
+        # Show the “session ready” dialog, then automatically start next on OK
+        reply = QMessageBox.information(
             self,
             "Pomodoro Complete",
             f"{self.current_mode} session is ready to start!",
+            QMessageBox.Ok
         )
+
+        # If the user clicks OK, immediately begin the next session:
+        if reply == QMessageBox.Ok:
+            # Disable settings while timer is running
+            self.settings_button.setEnabled(False)
+            # Start the countdown for the new mode
+            self.start_timer()
 
     def open_settings(self):
         """Open dialog to change durations, then save if accepted."""
