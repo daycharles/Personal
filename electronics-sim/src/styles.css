@@ -1,0 +1,294 @@
+:root {
+  color-scheme: dark;
+  font-family: 'Inter', sans-serif;
+  background: #0b1120;
+  color: #e2e8f0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #0b1120;
+}
+
+button {
+  background: #1e293b;
+  color: #e2e8f0;
+  border: 1px solid #334155;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button.active {
+  background: #2563eb;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  border-bottom: 1px solid #1e293b;
+}
+
+.app-actions button {
+  margin-left: 8px;
+}
+
+.app-body {
+  display: grid;
+  grid-template-columns: 240px 1fr 320px;
+  gap: 16px;
+  padding: 16px;
+}
+
+.palette {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  padding: 12px;
+  border-radius: 8px;
+  height: fit-content;
+}
+
+.palette-search {
+  width: 100%;
+  padding: 6px;
+  margin-bottom: 10px;
+  background: #1e293b;
+  border: 1px solid #334155;
+  color: #e2e8f0;
+  border-radius: 6px;
+}
+
+.palette-category {
+  font-weight: 600;
+  margin: 8px 0 4px;
+}
+
+.palette-item {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 6px;
+}
+
+.canvas-panel {
+  position: relative;
+}
+
+.schematic-canvas {
+  border: 1px solid #1e293b;
+  border-radius: 8px;
+}
+
+.tooltip-card {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: rgba(15, 23, 42, 0.95);
+  border: 1px solid #334155;
+  padding: 12px;
+  border-radius: 8px;
+  width: 280px;
+  z-index: 5;
+}
+
+.tooltip-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tooltip-category {
+  display: inline-block;
+  margin-left: 8px;
+  font-size: 12px;
+  color: #94a3b8;
+}
+
+.tooltip-symbols {
+  display: flex;
+  gap: 12px;
+}
+
+.tooltip-symbol-label {
+  font-size: 12px;
+  color: #94a3b8;
+}
+
+.tooltip-section ul {
+  margin: 4px 0 0;
+  padding-left: 18px;
+}
+
+.hint-banner {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: rgba(30, 41, 59, 0.9);
+  border: 1px solid #64748b;
+  padding: 10px;
+  border-radius: 8px;
+  width: 320px;
+}
+
+.right-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.inspector-panel {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.inspector-tabs button {
+  margin-right: 8px;
+}
+
+.inspector-tabs .active {
+  background: #2563eb;
+}
+
+.inspector-content ul {
+  padding-left: 18px;
+}
+
+.inspector-symbols {
+  display: flex;
+  gap: 12px;
+}
+
+.serial-monitor {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 8px;
+  padding: 8px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+}
+
+.serial-header {
+  font-weight: 600;
+}
+
+.serial-body {
+  margin-top: 6px;
+  overflow-y: auto;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.serial-empty {
+  color: #94a3b8;
+}
+
+.pcb-view {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 8px;
+  padding: 12px;
+  min-height: 560px;
+}
+
+.pcb-grid {
+  position: relative;
+  height: 520px;
+  border: 1px dashed #334155;
+}
+
+.pcb-part {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background: #1e293b;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.pcb-part-label {
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.pcb-pad {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: #38bdf8;
+  border-radius: 50%;
+}
+
+.ratsnest {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 10px;
+  color: #94a3b8;
+}
+
+.tag-control {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.tag-input {
+  width: 100%;
+  padding: 6px;
+  margin: 6px 0;
+  background: #1e293b;
+  border: 1px solid #334155;
+  color: #e2e8f0;
+  border-radius: 6px;
+}
+
+.tag-actions button {
+  margin-right: 6px;
+}
+
+.lesson-player {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.lesson-actions button {
+  margin-right: 6px;
+}
+
+.app-footer {
+  padding: 12px 20px;
+  border-top: 1px solid #1e293b;
+  display: flex;
+  justify-content: space-between;
+  color: #94a3b8;
+}
+
+.sim-quality {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sim-quality select {
+  background: #1e293b;
+  border: 1px solid #334155;
+  color: #e2e8f0;
+  border-radius: 6px;
+  padding: 4px 6px;
+}
