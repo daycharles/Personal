@@ -36,7 +36,7 @@ const drawPart = (ctx: CanvasRenderingContext2D, part: PartInstance, selected: b
   ctx.restore();
 
   ctx.strokeStyle = '#fbbf24';
-  partDefinitionMap[part.type]?.pins.forEach((pin) => {
+  partDefinitionMap[part.type]?.pins?.forEach((pin) => {
     const px = part.position.x + pin.offset.x;
     const py = part.position.y + pin.offset.y;
     ctx.beginPath();
