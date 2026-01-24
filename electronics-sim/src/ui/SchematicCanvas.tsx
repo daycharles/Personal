@@ -45,24 +45,22 @@ const drawPart = (ctx: CanvasRenderingContext2D, part: PartInstance, selected: b
   });
 };
 
-const drawWire = (ctx: CanvasRenderingContext2D, points: Point[] | undefined, phase: number) => {
-  if (!points || points.length < 2) return;
-  const safePoints = points.filter((point): point is Point => Boolean(point));
-  if (safePoints.length < 2) return;
+const drawWire = (ctx: CanvasRenderingContext2D, points: Point[], phase: number) => {
+  if (points.length < 2) return;
   ctx.strokeStyle = '#38bdf8';
   ctx.lineWidth = 2;
   ctx.beginPath();
-  ctx.moveTo(safePoints[0].x, safePoints[0].y);
-  safePoints.slice(1).forEach((point) => ctx.lineTo(point.x, point.y));
+  ctx.moveTo(points[0].x, points[0].y);
+  points.slice(1).forEach((point) => ctx.lineTo(point.x, point.y));
   ctx.stroke();
 
   const dotCount = 4;
   for (let i = 0; i < dotCount; i += 1) {
-    const t = ((phase / 1000 + i / dotCount) % 1) * (safePoints.length - 1);
+    const t = ((phase / 1000 + i / dotCount) % 1) * (points.length - 1);
     const idx = Math.floor(t);
     const local = t - idx;
-    const start = safePoints[idx];
-    const end = safePoints[idx + 1] ?? start;
+    const start = points[idx];
+    const end = points[idx + 1] ?? start;
     const x = start.x + (end.x - start.x) * local;
     const y = start.y + (end.y - start.y) * local;
     ctx.fillStyle = '#f97316';
